@@ -1,0 +1,4 @@
+client_id,booking_date,room_type,hotel_id,booking_cost,currency,age,client_name,client_type,hotel_name
+2,2021-08-19 18:00:00,standard_1_bed,1,2910.0,GBP,38.0,Ben,standard,Astro Resort
+4,2021-08-19 18:00:00,standard_1_bed,1,2910.0,GBP,43.0,Bianca,VIP,Astro Resort
+5,2021-08-19 18:00:00,standard_1_bed,4,2328.0,GBP,49.0,Caroline,standard,Millennium Times Square

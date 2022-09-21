@@ -707,3 +707,24 @@ File Path                                     PID    Runtime      # DAGs    # Er
 /opt/airflow/dags/data_ingestion_dag/main.py                           0          -1  0.04s           2022-09-20T19:44:32
 ================================================================================
 [2022-09-20T19:45:02.963+0000] {manager.py:972} ERROR - Processor for /opt/airflow/dags/data_ingestion_dag/main.py exited with return code 1.
+[2022-09-20T19:45:24.094+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_dag/main.py                           0          -1  0.03s           2022-09-20T19:45:02
+================================================================================
+[2022-09-20T19:45:33.180+0000] {manager.py:972} ERROR - Processor for /opt/airflow/dags/data_ingestion_dag/main.py exited with return code 1.
+[2022-09-20T19:45:51.314+0000] {manager.py:520} INFO - DAG booking_ingestion is missing and will be deactivated.
+[2022-09-20T19:45:51.334+0000] {manager.py:530} INFO - Deactivated 1 DAGs which are no longer present in file.
+[2022-09-20T19:45:51.346+0000] {manager.py:534} INFO - Deleted DAG booking_ingestion in serialized_dag table
+[2022-09-20T19:45:54.382+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_dag/main.py                           0          -1  0.02s           2022-09-20T19:45:33
+================================================================================
+[2022-09-20T19:46:03.512+0000] {manager.py:972} ERROR - Processor for /opt/airflow/dags/data_ingestion_dag/main.py exited with return code 1.

@@ -41,5 +41,3 @@ containerized database
  Create a dev, staging, and production area for the database.
 
 ### Contributors
-
-@degagawolde

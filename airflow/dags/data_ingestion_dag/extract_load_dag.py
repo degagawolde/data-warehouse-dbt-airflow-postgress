@@ -16,8 +16,10 @@ import os,sys
 dag_path = os.getcwd()
 sys.path.append('./scripts')
 
-from scripts.example_etl import ETL
-etl = ETL(dag_path)
+from scripts.extract_load import ELT
+
+elt = ELT(read_dag_path=f"{dag_path }/raw_data/20181024_d1_0830_0900.csv",
+         save_dag_path=f"{dag_path }/processed_data/")
 
 # initializing the default arguments that we'll pass to our DAG
 default_args = {
@@ -26,25 +28,25 @@ default_args = {
 }
 
 ingestion_dag = DAG(
-    'booking_ingestion',
+    'traffic_data_ingestion',
     default_args=default_args,
     description='Aggregates booking records for data analysis',
     schedule_interval=timedelta(hours=1),
     catchup=False,
-    user_defined_macros={'date_to_millis': etl.execution_date_to_millis}
+    user_defined_macros={'date_to_millis': elt.execution_date_to_millis}
 )
 
 task_1 = PythonOperator(
-    task_id='transform_data',
-    python_callable=etl.transform_data,
-    op_args=["{{ ds }} {{ execution_date.hour }}"],
+    task_id='etract_data',
+    python_callable=elt.extract_data,
+    # op_args=["{{ ds }} {{ execution_date.hour }}"],
     dag=ingestion_dag,
 )
 
 task_2 = PythonOperator(
     task_id='load_data',
-    python_callable=etl.load_data,
-    op_args=["{{ ds }} {{ execution_date.hour }}"],
+    python_callable=elt.load_data,
+    # op_args=["{{ ds }} {{ execution_date.hour }}"],
     dag=ingestion_dag,
 )
 

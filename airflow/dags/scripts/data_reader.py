@@ -113,6 +113,5 @@ class DataReader:
             print(trajectories_df.info())
         return vehicle_df, trajectories_df
 
-
 if __name__ == "__main__":
     DataReader(file_path="../data/20181030_d1_0830_0900.csv").get_dfs(v=1)

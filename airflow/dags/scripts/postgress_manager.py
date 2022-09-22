@@ -5,10 +5,9 @@ import pandas as pd
 from sqlalchemy import create_engine
 from sqlalchemy import text
 from sqlalchemy import inspect
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
-load_dotenv()
-
+# load_dotenv()
 
 # Connect to your PostgreSQL database on a remote server
 HOST = os.getenv("DBHOST")
@@ -25,7 +24,6 @@ BANNER = "="*20
 # Connect to the database
 ENGINE = create_engine(CONNECTION_STR)
 
-
 # Create the tables
 def create_tables():
     try:
@@ -39,7 +37,6 @@ def create_tables():
         print("Unable to create the Tables")
         print(print_exc())
 
-
 # Populate the tables
 def insert_data(df: pd.DataFrame, table_name):
     try:
@@ -52,7 +49,6 @@ def insert_data(df: pd.DataFrame, table_name):
         print("Unable to insert to table")
         print(print_exc())
 
-
 # Implement Querying functions
 def get_table_names():
     with ENGINE.connect() as conn:
@@ -60,20 +56,17 @@ def get_table_names():
         names = inspector.get_table_names()
         return names
 
-
 def get_vehicles():
     with ENGINE.connect() as conn:
         veh_df = pd.read_sql_table('vehicles', con=conn)
 
         return veh_df
 
-
 def get_trajectories():
     with ENGINE.connect() as conn:
         trajectories_df = pd.read_sql_table('trajectories', con=conn)
 
         return trajectories_df
-
 
 if __name__=="__main__":
     print(get_table_names())

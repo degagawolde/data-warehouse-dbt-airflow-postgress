@@ -1,3 +1,8 @@
 .history/
 data/
-airflow-1/
+airflow/raw_data
+airflow/processed_data
+airflow/logs
+airflow/db
+airflow/plugins
+env_de

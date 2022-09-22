@@ -126,3 +126,99 @@
 [2022-09-22T05:42:03.466+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:42:03.466+0000] {dag.py:2573} INFO - Sync 1 DAGs
 [2022-09-22T05:42:03.480+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:42:03.480+0000] {dag.py:3328} INFO - Setting next_dagrun for docker_dag to 2022-09-22T06:00:00+00:00, run_after=2022-09-22T07:00:00+00:00
 [2022-09-22T05:42:03.493+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/extract_load_dag.py took 0.123 seconds
+[2022-09-22T05:42:33.994+0000] {processor.py:156} INFO - Started process (PID=191) to work on /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:42:33.995+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/extract_load_dag.py for tasks to queue
+[2022-09-22T05:42:33.996+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:42:33.996+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:42:34.043+0000] {logging_mixin.py:117} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3425 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-09-22T05:42:34.051+0000] {processor.py:768} INFO - DAG(s) dict_keys(['docker_dag']) retrieved from /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:42:34.099+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:42:34.099+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-09-22T05:42:34.116+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:42:34.116+0000] {dag.py:3328} INFO - Setting next_dagrun for docker_dag to 2022-09-22T06:00:00+00:00, run_after=2022-09-22T07:00:00+00:00
+[2022-09-22T05:42:34.130+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/extract_load_dag.py took 0.138 seconds
+[2022-09-22T05:43:04.350+0000] {processor.py:156} INFO - Started process (PID=224) to work on /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:43:04.352+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/extract_load_dag.py for tasks to queue
+[2022-09-22T05:43:04.353+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:43:04.352+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:43:04.394+0000] {logging_mixin.py:117} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3425 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-09-22T05:43:04.401+0000] {processor.py:768} INFO - DAG(s) dict_keys(['docker_dag']) retrieved from /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:43:04.443+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:43:04.443+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-09-22T05:43:04.457+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:43:04.457+0000] {dag.py:3328} INFO - Setting next_dagrun for docker_dag to 2022-09-22T06:00:00+00:00, run_after=2022-09-22T07:00:00+00:00
+[2022-09-22T05:43:04.468+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/extract_load_dag.py took 0.120 seconds
+[2022-09-22T05:43:34.719+0000] {processor.py:156} INFO - Started process (PID=256) to work on /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:43:34.720+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/extract_load_dag.py for tasks to queue
+[2022-09-22T05:43:34.723+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:43:34.722+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:43:34.769+0000] {logging_mixin.py:117} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3425 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-09-22T05:43:34.777+0000] {processor.py:768} INFO - DAG(s) dict_keys(['docker_dag']) retrieved from /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:43:34.821+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:43:34.820+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-09-22T05:43:34.835+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:43:34.835+0000] {dag.py:3328} INFO - Setting next_dagrun for docker_dag to 2022-09-22T06:00:00+00:00, run_after=2022-09-22T07:00:00+00:00
+[2022-09-22T05:43:34.848+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/extract_load_dag.py took 0.131 seconds
+[2022-09-22T05:44:05.110+0000] {processor.py:156} INFO - Started process (PID=286) to work on /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:44:05.112+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/extract_load_dag.py for tasks to queue
+[2022-09-22T05:44:05.113+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:44:05.113+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:44:05.166+0000] {logging_mixin.py:117} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3425 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-09-22T05:44:05.175+0000] {processor.py:768} INFO - DAG(s) dict_keys(['docker_dag']) retrieved from /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:44:05.226+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:44:05.226+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-09-22T05:44:05.244+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:44:05.244+0000] {dag.py:3328} INFO - Setting next_dagrun for docker_dag to 2022-09-22T06:00:00+00:00, run_after=2022-09-22T07:00:00+00:00
+[2022-09-22T05:44:05.261+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/extract_load_dag.py took 0.156 seconds
+[2022-09-22T05:44:35.523+0000] {processor.py:156} INFO - Started process (PID=317) to work on /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:44:35.525+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/extract_load_dag.py for tasks to queue
+[2022-09-22T05:44:35.526+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:44:35.526+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:44:35.584+0000] {logging_mixin.py:117} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3425 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-09-22T05:44:35.595+0000] {processor.py:768} INFO - DAG(s) dict_keys(['docker_dag']) retrieved from /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:44:35.663+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:44:35.663+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-09-22T05:44:35.687+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:44:35.687+0000] {dag.py:3328} INFO - Setting next_dagrun for docker_dag to 2022-09-22T06:00:00+00:00, run_after=2022-09-22T07:00:00+00:00
+[2022-09-22T05:44:35.709+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/extract_load_dag.py took 0.189 seconds
+[2022-09-22T05:45:06.045+0000] {processor.py:156} INFO - Started process (PID=340) to work on /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:45:06.047+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/extract_load_dag.py for tasks to queue
+[2022-09-22T05:45:06.048+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:45:06.048+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:45:06.098+0000] {logging_mixin.py:117} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3425 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-09-22T05:45:06.105+0000] {processor.py:768} INFO - DAG(s) dict_keys(['docker_dag']) retrieved from /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:45:06.151+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:45:06.151+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-09-22T05:45:06.167+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:45:06.167+0000] {dag.py:3328} INFO - Setting next_dagrun for docker_dag to 2022-09-22T06:00:00+00:00, run_after=2022-09-22T07:00:00+00:00
+[2022-09-22T05:45:06.180+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/extract_load_dag.py took 0.138 seconds
+[2022-09-22T05:45:36.578+0000] {processor.py:156} INFO - Started process (PID=374) to work on /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:45:36.579+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/extract_load_dag.py for tasks to queue
+[2022-09-22T05:45:36.580+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:45:36.580+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:45:36.626+0000] {logging_mixin.py:117} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3425 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-09-22T05:45:36.633+0000] {processor.py:768} INFO - DAG(s) dict_keys(['docker_dag']) retrieved from /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:45:36.676+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:45:36.676+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-09-22T05:45:36.691+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:45:36.691+0000] {dag.py:3328} INFO - Setting next_dagrun for docker_dag to 2022-09-22T06:00:00+00:00, run_after=2022-09-22T07:00:00+00:00
+[2022-09-22T05:45:36.702+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/extract_load_dag.py took 0.127 seconds
+[2022-09-22T05:46:06.967+0000] {processor.py:156} INFO - Started process (PID=406) to work on /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:46:06.969+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/extract_load_dag.py for tasks to queue
+[2022-09-22T05:46:06.972+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:46:06.972+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:46:07.021+0000] {logging_mixin.py:117} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3425 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-09-22T05:46:07.028+0000] {processor.py:768} INFO - DAG(s) dict_keys(['docker_dag']) retrieved from /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:46:07.072+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:46:07.072+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-09-22T05:46:07.087+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:46:07.087+0000] {dag.py:3328} INFO - Setting next_dagrun for docker_dag to 2022-09-22T06:00:00+00:00, run_after=2022-09-22T07:00:00+00:00
+[2022-09-22T05:46:07.099+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/extract_load_dag.py took 0.137 seconds
+[2022-09-22T05:46:37.362+0000] {processor.py:156} INFO - Started process (PID=439) to work on /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:46:37.363+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/extract_load_dag.py for tasks to queue
+[2022-09-22T05:46:37.364+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:46:37.364+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:46:37.420+0000] {logging_mixin.py:117} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3425 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-09-22T05:46:37.429+0000] {processor.py:768} INFO - DAG(s) dict_keys(['docker_dag']) retrieved from /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:46:37.500+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:46:37.500+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-09-22T05:46:37.526+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:46:37.526+0000] {dag.py:3328} INFO - Setting next_dagrun for docker_dag to 2022-09-22T06:00:00+00:00, run_after=2022-09-22T07:00:00+00:00
+[2022-09-22T05:46:37.541+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/extract_load_dag.py took 0.182 seconds
+[2022-09-22T05:47:07.845+0000] {processor.py:156} INFO - Started process (PID=474) to work on /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:47:07.847+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/extract_load_dag.py for tasks to queue
+[2022-09-22T05:47:07.849+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:47:07.849+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:47:07.901+0000] {logging_mixin.py:117} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3425 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-09-22T05:47:07.908+0000] {processor.py:768} INFO - DAG(s) dict_keys(['docker_dag']) retrieved from /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:47:07.950+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:47:07.950+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-09-22T05:47:07.964+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:47:07.964+0000] {dag.py:3328} INFO - Setting next_dagrun for docker_dag to 2022-09-22T06:00:00+00:00, run_after=2022-09-22T07:00:00+00:00
+[2022-09-22T05:47:07.977+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/extract_load_dag.py took 0.136 seconds
+[2022-09-22T05:47:38.283+0000] {processor.py:156} INFO - Started process (PID=497) to work on /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:47:38.285+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/extract_load_dag.py for tasks to queue
+[2022-09-22T05:47:38.286+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:47:38.286+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:47:38.329+0000] {logging_mixin.py:117} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3425 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-09-22T05:47:38.336+0000] {processor.py:768} INFO - DAG(s) dict_keys(['docker_dag']) retrieved from /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:47:38.379+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:47:38.379+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-09-22T05:47:38.393+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:47:38.393+0000] {dag.py:3328} INFO - Setting next_dagrun for docker_dag to 2022-09-22T06:00:00+00:00, run_after=2022-09-22T07:00:00+00:00
+[2022-09-22T05:47:38.406+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/extract_load_dag.py took 0.125 seconds
+[2022-09-22T05:48:08.611+0000] {processor.py:156} INFO - Started process (PID=528) to work on /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:48:08.612+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/extract_load_dag.py for tasks to queue
+[2022-09-22T05:48:08.615+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:48:08.615+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:48:08.667+0000] {logging_mixin.py:117} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3425 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-09-22T05:48:08.674+0000] {processor.py:768} INFO - DAG(s) dict_keys(['docker_dag']) retrieved from /opt/airflow/dags/extract_load_dag.py
+[2022-09-22T05:48:08.718+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:48:08.717+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-09-22T05:48:08.732+0000] {logging_mixin.py:117} INFO - [2022-09-22T05:48:08.732+0000] {dag.py:3328} INFO - Setting next_dagrun for docker_dag to 2022-09-22T06:00:00+00:00, run_after=2022-09-22T07:00:00+00:00
+[2022-09-22T05:48:08.747+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/extract_load_dag.py took 0.140 seconds

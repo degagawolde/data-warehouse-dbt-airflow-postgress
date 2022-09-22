@@ -1,0 +1,166 @@
+"""
+admin: generic database admin through web interface
+"""
+
+import os.path,datetime,cPickle
+import simplejson as json
+import controllers
+from spark.dbmysql import DbSpark
+from spark.session import SessionFile
+
+#change these to customize
+rowsperpage = 5
+tmpdir      = '/tmp'
+
+dbo=DbSpark(${dbstring},cursortype='l')
+#dbo.q("set names utf8")  #uncomment this line if you use utf8 charset
+
+def index(r):
+	session = SessionFile(r,tmpdir)
+	if 'username' not in session: return r.redirect('/admin/auth')
+	databases = [a[0] for a in dbo.qall("show databases")]
+	databases.remove('information_schema')
+	databases.remove('mysql')
+	databases = ['<a href="/admin/database/%s">%s</a>'%(a,a) for a in databases]
+	databases.insert(0,'<b>Databases:</b><hr />')
+	databases.append('<hr /><a href="/admin/logout/">logout</a>')
+	return "<br />".join(databases)
+
+def database(r):
+	session = SessionFile(r,tmpdir)
+	if 'username' not in session: return r.redirect('/admin/auth')
+	if len(r.path)>2:
+		if r.path[2] in ['information_schema','mysql']:
+			return "protected db!"
+		session['dbname']=r.path[2]
+		session.save()
+		sql = "show tables from %s"%r.path[2]
+	else: return "missing db name"
+	tables = [a[0] for a in dbo.qall(sql)]
+	tables = ['<a href="/admin/table/%s">%s</a>'%(a,a) for a in tables]
+	tables.insert(0,'<b>database: %s</b>'%r.path[2])
+	tables.insert(0,'<a href="/admin/">Return to Databases</a><hr />')
+	tables.append('<hr /><a href="/admin/logout/">logout</a>')
+	return "<br />".join(tables)
+
+def table(r):
+	session = SessionFile(r,tmpdir)
+	if 'username' not in session: return r.redirect('/admin/auth')
+	tpf = os.path.join(os.path.dirname(__file__),'..','templates','admin','table.html')
+	t = r.sprite(tpf)
+	if 'dbname' in session:
+		dbo.q("use %s"%session['dbname'])
+		t.assign_vars({'dbname':'database/'+session['dbname']})
+	else:
+		return "no db selected"
+	total = dbo.qone("select count(*) from %s"%r.path[2])[0]
+	t.assign_vars({'total':total,'rowsperpage':rowsperpage})
+	rows = dbo.qall("describe %s"%r.path[2])
+	for row in rows:
+		if 'auto_increment' in row[5]:
+			inpt = 'auto'
+		else: 
+			inpt ='<input type="text" name="xdb_%s" value="" />'%row[0]
+		t.set_block_vars('struct',{'field':row[0],
+			'type':row[1], 'null':row[2], 'key':row[3],
+			'default':row[4],'extra':row[5],'input':inpt})
+	cols = dbo.qone("select * from %s limit 1"%r.path[2])
+	if not cols: cols,desc=[],['']
+	else: desc = dbo.desc()
+	t.assign_vars({'table':r.path[2],'first_col':desc[0]})
+	for d in desc: t.set_block_vars('desc',{'d':d})
+	for i in range(len(cols)):
+		t.set_block_vars('col',{'d':cols[i],'desc':desc[i]})
+	return t.display()
+
+def tabledata(r):
+	session = SessionFile(r,tmpdir)
+	if 'username' not in session: return r.redirect('/admin/auth')
+	if 'dbname' in session: dbo.q("use %s"%session['dbname'])
+	else: return "{}"
+	offset = 0
+	try: offset = int(r.path[3])
+	except: offset = 0
+	rows = dbo.qall("select * from %s limit %d,5"%(r.path[2],offset))
+	data = []
+	#have to do all this to convert datatime.datetime to str
+	#because it won't json
+	for row in rows:
+		data.append([])
+		for c in row:
+			if type(c) == datetime.datetime: data[-1].append(str(c))
+			else: data[-1].append(c)
+	return json.write({"columns":dbo.desc(),"rows":data})
+
+def delete(r):
+	session = SessionFile(r,tmpdir)
+	if 'username' not in session: return r.redirect('/admin/auth')
+	if 'dbname' in session: dbo.q("use %s"%session['dbname'])
+	else: return "no db selected"
+	if len(r.path)<3: return "missing table name"
+	field = dbo.escape(r.form.get('dbfield','1').strip())
+	value = dbo.escape(r.form.get('dbvalue','0').strip())
+	if not field or not value: return "" #not give clue
+	sql = "DELETE FROM %s WHERE %s='%s'"%(r.path[2],field,value)
+	dbo.q(sql)
+	return r.redirect("/admin/table/%s"%r.path[2])
+
+def insert(r):
+	session = SessionFile(r,tmpdir)
+	if 'username' not in session: return r.redirect('/admin/auth')
+	if 'dbname' in session: dbo.q("use %s"%session['dbname'])
+	else: return "no db selected"
+	fields,values = [],[]
+	for k in r.form:
+		if k.startswith('xdb_') and r.form[k].strip():
+			fields.append(dbo.escape(k.replace("xdb_","")))
+			values.append(dbo.escape(r.form[k]))
+	sql = """INSERT INTO %s (%s) VALUES ('%s')
+	  """%(r.path[2],','.join(fields),"','".join(values))
+	dbo.q(sql)
+	return r.redirect("/admin/table/%s"%r.path[2])
+
+def auth(r):
+	if 'redirect' in r.form: redi_page = r.form['redirect']
+	else: redi_page = '/admin/'
+	return """<form method=POST action="/admin/login">
+<input type="hidden" name="redirect" value="%s">
+username: <input type="text" name="username"><br />
+password:<input type="password" name="password"><br />
+<input type="submit" name="login" value="login"><br />
+</form>"""%(redi_page)
+
+def login(r):
+	session = SessionFile(r,tmpdir)
+	if 'username' in session: return 'already logged in'
+
+	form = r.form
+	if not form.get('username',''): return 'no username'
+	if not form.get('password',''): return 'no password'
+	username = form['username']
+	password = form['password']
+
+	try: passwdf = open(os.path.join(os.path.dirname(__file__),'..','etc','admin_passwd'),'r')
+	except: return "You need to create admin_passwd file"
+	
+	userdata = {}
+	for line in passwdf: 
+		i = line.split(':')
+		if len(i)>1: userdata[i[0]]=i[1]
+
+	if username not in userdata: return 'no such user'
+	
+	import sha
+	if userdata[username] != sha.new(password).hexdigest():
+		return 'wrong password'
+
+	session['username'] = userdata[username]
+	session.save()
+	if form.has_key('redirect'):
+		return r.redirect(form['redirect'])
+	return 'you are logged in'
+
+def logout(r):
+	session = SessionFile(r,tmpdir)
+	session.delete()
+	return r.redirect('/')

@@ -1,0 +1,28 @@
+r"ajaxwiki - Ajaxified Wiki.  sql schema is the same as wiki"
+import simplejson as json
+from spark.db${driver} import DbSpark
+
+#we don't use orm because it's harder to json list of obj than to json list of dict
+dbo = DbSpark(${dbstring}) 
+<!-- BEGIN ismysql -->
+dbo.q("set names utf8")
+<!-- END -->
+esc = dbo.escape
+
+def index(r):
+	tpl = r.sprite("wiki/wiki.html")
+	tpl.assign_vars({"row":dbo.qall("select * from wiki")})
+	return tpl.display()
+
+def home(r): return json.write(dbo.qall("select * from wiki"))
+
+def word(r):
+	return json.write(dbo.qone("select * from wiki where word='%s'"%r.path[2]))
+
+def insert(r):
+	dbo.q("""INSERT INTO wiki VALUES ('%s','%s')
+	""" %(esc(r.form["word"]),esc(r.form["content"])))
+
+def update(r):
+	dbo.q("""UPDATE wiki SET content='%s' WHERE word='%s'
+        """%(esc(r.form["content"]),esc(r.path[2])))

@@ -39,3 +39,7 @@ containerized database
 
 ## dev,stage, prod
  Create a dev, staging, and production area for the database.
+
+### Contributors
+
+@degagawolde

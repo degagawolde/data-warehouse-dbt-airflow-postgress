@@ -2,7 +2,7 @@ name: App Stats
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   log:

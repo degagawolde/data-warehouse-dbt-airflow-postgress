@@ -43,7 +43,6 @@ containerized database
  Create a dev, staging, and production area for the database.
 
 ### Contributors
-
 <table>
 <tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
@@ -56,3 +55,19 @@ containerized database
 </tr>
 </table>
 
+[contributors-shield]: https://img.shields.io/github/contributors/Hen0k/data-warehouse-dbt-airflow-postgress.svg?style=for-the-badge
+[my-profile]: https://github.com/degagawolde
+[contributors-url]: https://github.com/degagawolde/data-warehouse-dbt-airflow-postgress/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Hen0k/data-warehouse-dbt-airflow-postgress.svg?style=for-the-badge
+[forks-url]: https://github.com/degagawolde/data-warehouse-dbt-airflow-postgress/network/members
+[stars-shield]: https://img.shields.io/github/stars/Hen0k/data-warehouse-dbt-airflow-postgress.svg?style=for-the-badge
+[stars-url]: https://github.com/degagawolde/data-warehouse-dbt-airflow-postgress/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Hen0k/data-warehouse-dbt-airflow-postgress.svg?style=for-the-badge
+[issues-url]: https://github.com/degagawolde/data-warehouse-dbt-airflow-postgress/issues
+[license-shield]: https://img.shields.io/github/license/Hen0k/data-warehouse-dbt-airflow-postgress.svg?style=for-the-badge
+[license-url]: https://github.com/degagawolde/data-warehouse-dbt-airflow-postgress/blob/master/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/degagawolde/
+[redash-install-blog]: https://www.techrepublic.com/article/how-to-deploy-redash-data-visualization-dashboard-help-docker/
+[redash-basics]: https://hevodata.com/learn/redash/
+[hosting-dbt-docs]: https://amchoi.medium.com/hosting-dbt-documentation-in-gcp-aa529d4f3bb8

@@ -3771,3 +3771,38 @@ ModuleNotFoundError: No module named 'example_etl'
 [2022-09-22T13:07:04.990+0000] {logging_mixin.py:117} INFO - [2022-09-22T13:07:04.990+0000] {dag.py:2573} INFO - Sync 1 DAGs
 [2022-09-22T13:07:05.006+0000] {logging_mixin.py:117} INFO - [2022-09-22T13:07:05.006+0000] {dag.py:3328} INFO - Setting next_dagrun for booking_ingestion to 2022-09-22T13:06:34.484138+00:00, run_after=2022-09-22T14:06:34.484138+00:00
 [2022-09-22T13:07:05.017+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/data_ingestion_dag/main.py took 0.217 seconds
+[2022-09-22T13:13:34.549+0000] {processor.py:156} INFO - Started process (PID=38) to work on /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:13:34.554+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/data_ingestion_dag/main.py for tasks to queue
+[2022-09-22T13:13:34.556+0000] {logging_mixin.py:117} INFO - [2022-09-22T13:13:34.556+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:13:35.381+0000] {processor.py:768} INFO - DAG(s) dict_keys(['booking_ingestion']) retrieved from /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:13:35.503+0000] {logging_mixin.py:117} INFO - [2022-09-22T13:13:35.502+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-09-22T13:13:35.581+0000] {logging_mixin.py:117} INFO - [2022-09-22T13:13:35.581+0000] {dag.py:3328} INFO - Setting next_dagrun for booking_ingestion to 2022-09-22T13:06:34.484138+00:00, run_after=2022-09-22T14:06:34.484138+00:00
+[2022-09-22T13:13:35.630+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/data_ingestion_dag/main.py took 1.083 seconds
+[2022-09-22T13:14:06.094+0000] {processor.py:156} INFO - Started process (PID=71) to work on /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:14:06.096+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/data_ingestion_dag/main.py for tasks to queue
+[2022-09-22T13:14:06.098+0000] {logging_mixin.py:117} INFO - [2022-09-22T13:14:06.098+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:14:06.240+0000] {processor.py:768} INFO - DAG(s) dict_keys(['booking_ingestion']) retrieved from /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:14:06.268+0000] {logging_mixin.py:117} INFO - [2022-09-22T13:14:06.268+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-09-22T13:14:06.283+0000] {logging_mixin.py:117} INFO - [2022-09-22T13:14:06.283+0000] {dag.py:3328} INFO - Setting next_dagrun for booking_ingestion to 2022-09-22T13:06:34.484138+00:00, run_after=2022-09-22T14:06:34.484138+00:00
+[2022-09-22T13:14:06.294+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/data_ingestion_dag/main.py took 0.203 seconds
+[2022-09-22T13:14:36.546+0000] {processor.py:156} INFO - Started process (PID=104) to work on /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:14:36.547+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/data_ingestion_dag/main.py for tasks to queue
+[2022-09-22T13:14:36.548+0000] {logging_mixin.py:117} INFO - [2022-09-22T13:14:36.548+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:14:36.685+0000] {processor.py:768} INFO - DAG(s) dict_keys(['booking_ingestion']) retrieved from /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:14:36.709+0000] {logging_mixin.py:117} INFO - [2022-09-22T13:14:36.709+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-09-22T13:14:36.724+0000] {logging_mixin.py:117} INFO - [2022-09-22T13:14:36.724+0000] {dag.py:3328} INFO - Setting next_dagrun for booking_ingestion to 2022-09-22T13:06:34.484138+00:00, run_after=2022-09-22T14:06:34.484138+00:00
+[2022-09-22T13:14:36.737+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/data_ingestion_dag/main.py took 0.194 seconds
+[2022-09-22T13:15:07.082+0000] {processor.py:156} INFO - Started process (PID=136) to work on /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:15:07.084+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/data_ingestion_dag/main.py for tasks to queue
+[2022-09-22T13:15:07.086+0000] {logging_mixin.py:117} INFO - [2022-09-22T13:15:07.086+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:15:07.228+0000] {processor.py:768} INFO - DAG(s) dict_keys(['booking_ingestion']) retrieved from /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:15:07.253+0000] {logging_mixin.py:117} INFO - [2022-09-22T13:15:07.253+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-09-22T13:15:07.269+0000] {logging_mixin.py:117} INFO - [2022-09-22T13:15:07.269+0000] {dag.py:3328} INFO - Setting next_dagrun for booking_ingestion to 2022-09-22T13:06:34.484138+00:00, run_after=2022-09-22T14:06:34.484138+00:00
+[2022-09-22T13:15:07.280+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/data_ingestion_dag/main.py took 0.207 seconds
+[2022-09-22T13:15:37.564+0000] {processor.py:156} INFO - Started process (PID=168) to work on /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:15:37.567+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/data_ingestion_dag/main.py for tasks to queue
+[2022-09-22T13:15:37.570+0000] {logging_mixin.py:117} INFO - [2022-09-22T13:15:37.569+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:15:38.205+0000] {processor.py:768} INFO - DAG(s) dict_keys(['booking_ingestion']) retrieved from /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:15:38.263+0000] {logging_mixin.py:117} INFO - [2022-09-22T13:15:38.263+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-09-22T13:15:38.313+0000] {logging_mixin.py:117} INFO - [2022-09-22T13:15:38.313+0000] {dag.py:3328} INFO - Setting next_dagrun for booking_ingestion to 2022-09-22T13:06:34.484138+00:00, run_after=2022-09-22T14:06:34.484138+00:00
+[2022-09-22T13:15:38.344+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/data_ingestion_dag/main.py took 0.784 seconds

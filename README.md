@@ -13,3 +13,7 @@ For each .csv file the following apply:
 - The first 4 columns include information about the trajectory like the unique trackID, the type of vehicle, the distance traveled in meters and the average speed of the vehicle in km/h
 - The last 6 columns are then repeated every 6 columns based on the time frequency. For example, column_5 contains the latitude of the vehicle at time column_10, and column_11 contains the latitude of the vehicle at time column_16.
 - Speed is in km/h, Longitudinal and Lateral Acceleration in m/sec2 and time in second
+
+# Airflow
+
+# DBT

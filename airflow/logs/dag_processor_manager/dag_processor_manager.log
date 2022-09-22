@@ -7815,3 +7815,763 @@ File Path                                                 PID    Runtime      # 
 /opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.31s           2022-09-22T13:06:43
 /opt/airflow/dags/data_ingestion_dag/main.py                                       1           0  0.25s           2022-09-22T13:07:05
 ================================================================================
+[2022-09-22T13:13:34.364+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2022-09-22T13:13:34.369+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2022-09-22T13:13:34.371+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-09-22T13:13:34.373+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-09-22T13:13:34.472+0000] {manager.py:727} INFO - There are 3 files in /opt/airflow/dags
+[2022-09-22T13:13:34.571+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           0           0
+/opt/airflow/dags/data_ingestion_dag/main.py                 38  0.05s             0           0
+/opt/airflow/dags/scripts/example_etl.py                     37  0.06s             0           0
+================================================================================
+[2022-09-22T13:14:05.052+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/example_etl.py                                           0           0  0.88s           2022-09-22T13:13:35
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.61s           2022-09-22T13:13:36
+/opt/airflow/dags/data_ingestion_dag/main.py                                       1           0  1.15s           2022-09-22T13:13:35
+================================================================================
+[2022-09-22T13:14:35.521+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/example_etl.py                                           0           0  0.19s           2022-09-22T13:14:06
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.22s           2022-09-22T13:14:06
+/opt/airflow/dags/data_ingestion_dag/main.py                                       1           0  0.23s           2022-09-22T13:14:06
+================================================================================
+[2022-09-22T13:15:06.015+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/example_etl.py                                           0           0  0.17s           2022-09-22T13:14:36
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.20s           2022-09-22T13:14:36
+/opt/airflow/dags/data_ingestion_dag/main.py                                       1           0  0.22s           2022-09-22T13:14:36
+================================================================================
+[2022-09-22T13:15:36.512+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/example_etl.py                                           0           0  0.20s           2022-09-22T13:15:07
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.21s           2022-09-22T13:15:07
+/opt/airflow/dags/data_ingestion_dag/main.py                                       1           0  0.24s           2022-09-22T13:15:07
+================================================================================
+[2022-09-22T13:15:49.443+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:15:49.491+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:15:50.462+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:15:50.499+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:15:51.469+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:15:51.504+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:15:52.477+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:15:52.511+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:15:53.487+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:15:53.517+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:15:54.493+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:15:54.522+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:15:55.501+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:15:55.527+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:15:56.507+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:15:56.533+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:15:57.514+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:15:57.538+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:15:58.520+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:15:58.543+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:15:59.525+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:15:59.548+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:00.529+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:00.555+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:01.536+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:01.561+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:02.541+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:02.569+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:03.547+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:03.550+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:03.575+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:03.595+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:04.555+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:04.558+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:04.602+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:04.605+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:05.563+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:05.565+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:05.611+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:05.613+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:06.573+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:06.578+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:06.582+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/example_etl.py                                           0           0  0.52s           2022-09-22T13:15:38
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.39s           2022-09-22T13:15:38
+/opt/airflow/dags/data_ingestion_dag/main.py                                       1           0  0.84s           2022-09-22T13:15:38
+================================================================================
+[2022-09-22T13:16:06.618+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:06.622+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:07.589+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:07.593+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:07.628+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:07.631+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:08.598+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:08.601+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:08.642+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:08.646+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:09.008+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:09.011+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:09.652+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:09.655+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:10.016+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:10.018+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:10.661+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:10.664+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:11.024+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:11.029+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:11.670+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:11.673+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:12.037+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:12.040+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:12.678+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:12.681+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:13.046+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:13.050+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:13.686+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:13.690+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:14.056+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:14.064+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:14.698+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:14.711+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:15.075+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:15.083+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:15.716+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:15.719+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:16.093+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:16.095+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:16.727+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:16.731+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:17.107+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:17.111+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:17.741+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:17.746+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:18.121+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:18.125+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:18.754+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:18.759+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:19.142+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:19.149+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:19.768+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:19.772+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:20.166+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:20.172+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:20.784+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:20.791+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:21.189+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:21.193+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:21.799+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:21.803+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:22.200+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:22.203+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:22.811+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:22.814+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:23.209+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:23.212+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:23.826+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:23.832+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:24.226+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:24.234+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:24.847+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:24.854+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:25.249+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:25.258+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:25.872+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:25.880+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:26.277+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:26.284+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:26.898+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:26.905+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:27.296+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:27.301+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:27.930+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:27.940+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:28.310+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:28.313+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:28.965+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:28.971+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:29.323+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:29.331+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:29.989+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:29.998+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:30.351+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:30.358+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:31.024+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:31.032+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:31.379+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:31.389+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:32.042+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:32.045+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:32.399+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:32.402+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:33.050+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:33.053+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:33.407+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:33.410+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:34.062+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:34.066+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:34.414+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:34.417+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:35.073+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:35.079+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:35.425+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:35.429+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:36.102+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:36.109+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:36.457+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:36.467+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:37.125+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:37.137+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:37.142+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/example_etl.py                                           0           0  0.52s           2022-09-22T13:15:38
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.40s           2022-09-22T13:16:09
+/opt/airflow/dags/data_ingestion_dag/main.py                                       1           0  0.84s           2022-09-22T13:15:38
+================================================================================
+[2022-09-22T13:16:37.478+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:37.484+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:38.156+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:38.166+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:38.492+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:38.495+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:39.191+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:39.200+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:39.444+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:39.446+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:40.230+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:40.239+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:40.457+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:40.467+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:41.259+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:41.266+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:41.479+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:41.485+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:42.283+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:42.288+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:42.492+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:42.497+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:43.296+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:43.298+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:43.505+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:43.508+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:44.305+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:44.308+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:44.513+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:44.515+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:45.316+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:45.323+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:45.525+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:45.529+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:46.341+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:46.351+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:46.538+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:46.543+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:47.374+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:47.385+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:47.563+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:47.572+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:48.396+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:48.399+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:48.583+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:48.588+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:49.412+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:49.419+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:49.605+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:49.612+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:50.437+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:50.442+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:50.622+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:50.628+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:51.453+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:51.459+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:51.637+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:51.643+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:52.466+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:52.470+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:52.655+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:52.659+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:53.484+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:53.489+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:53.664+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:53.666+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:54.495+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:54.499+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:54.674+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:54.678+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:55.506+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:55.508+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:55.685+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:55.688+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:56.516+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:56.521+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:56.696+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:56.698+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:57.534+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:57.539+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:57.706+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:57.716+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:58.547+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:58.550+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:58.720+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:58.723+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:59.564+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:59.571+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:16:59.728+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:16:59.732+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:00.583+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:00.590+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:00.737+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:00.740+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:01.606+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:01.613+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:01.745+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:01.748+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:02.631+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:02.638+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:02.757+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:02.761+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:03.646+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:03.649+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:03.765+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:03.768+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:04.655+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:04.658+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:04.774+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:04.777+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:05.664+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:05.669+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:05.782+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:05.785+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:06.676+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:06.678+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:06.791+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:06.797+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:07.684+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:07.687+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:07.689+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/example_etl.py                                           0           0  0.52s           2022-09-22T13:15:38
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.23s           2022-09-22T13:16:39
+/opt/airflow/dags/data_ingestion_dag/main.py                                       1           0  0.84s           2022-09-22T13:15:38
+================================================================================
+[2022-09-22T13:17:07.801+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:07.804+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:08.695+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:08.699+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:08.808+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:08.811+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:09.716+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:09.723+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:09.817+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:09.820+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:09.951+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:09.953+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:10.839+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:10.854+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:10.959+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:10.964+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:11.865+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:11.868+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:11.970+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:11.972+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:12.876+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:12.879+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:12.976+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:12.978+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:13.888+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:13.891+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:13.984+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:13.987+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:14.897+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:14.900+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:14.993+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:14.995+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:15.915+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:15.921+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:16.002+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:16.007+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:16.927+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:16.930+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:17.015+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:17.017+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:17.941+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:17.946+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:18.024+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:18.032+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:18.953+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:18.955+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:19.043+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:19.046+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:19.963+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:19.968+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:20.054+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:20.059+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:20.986+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:20.996+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:21.077+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:21.085+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:22.007+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:22.011+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:22.101+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:22.105+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:23.021+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:23.029+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:23.118+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:23.125+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:24.037+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:24.039+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:24.136+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:24.140+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:25.049+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:25.055+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:25.145+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:25.149+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:26.062+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:26.067+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:26.153+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:26.156+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:27.072+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:27.075+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:27.163+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:27.167+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:28.080+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:28.083+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:28.174+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:28.177+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:29.090+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:29.092+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:29.185+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:29.188+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:30.104+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:30.109+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:30.195+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:30.201+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:31.120+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:31.126+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:31.218+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:31.225+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:32.132+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:32.135+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:32.234+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:32.237+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:33.148+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:33.155+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:33.252+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:33.260+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:34.164+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:34.166+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:34.269+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:34.273+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:35.176+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:35.184+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:35.287+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:35.296+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:36.198+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:36.201+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:36.304+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:36.307+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:37.213+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:37.217+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:37.313+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:37.317+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:38.222+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:38.225+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:38.228+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/example_etl.py                                           0           0  0.52s           2022-09-22T13:15:38
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.22s           2022-09-22T13:17:09
+/opt/airflow/dags/data_ingestion_dag/main.py                                       1           0  0.84s           2022-09-22T13:15:38
+================================================================================
+[2022-09-22T13:17:38.323+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:38.326+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:39.233+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:39.236+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:39.330+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:39.333+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:40.254+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:40.262+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:40.340+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:40.343+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:40.522+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:40.524+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:41.360+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:41.370+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:41.542+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:41.554+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:42.383+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:42.387+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:42.571+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:42.576+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:43.403+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:43.411+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:43.597+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:43.605+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:44.425+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:44.429+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:44.620+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:44.629+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:45.446+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:45.454+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:45.650+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:45.659+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:46.464+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:46.467+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:46.668+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:46.670+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:47.474+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:47.477+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:47.682+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:47.689+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:48.483+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:48.486+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:48.697+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:48.700+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:49.491+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:49.495+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:49.708+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:49.711+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:50.504+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:50.509+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:50.725+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:50.733+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:51.530+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:51.535+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:51.749+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:51.756+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:52.547+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:52.549+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:52.773+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:52.779+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:53.562+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:53.569+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:53.801+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:53.809+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:54.587+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:54.593+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:54.831+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:54.838+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:55.611+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:55.618+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:55.858+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:55.867+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:56.636+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:56.643+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:56.875+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:56.878+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:57.652+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:57.654+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:57.887+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:57.890+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:58.671+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:58.679+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:58.906+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:58.921+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:59.694+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:59.697+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:17:59.934+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:17:59.937+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:00.704+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:00.706+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:00.945+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:00.951+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:01.724+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:01.733+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:01.967+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:01.976+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:02.750+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:02.757+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:02.985+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:02.990+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:03.776+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:03.784+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:04.002+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:04.010+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:04.797+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:04.803+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:05.020+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:05.026+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:05.816+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:05.822+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:06.036+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:06.042+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:06.842+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:06.851+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:07.050+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:07.054+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:07.861+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:07.864+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:08.060+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:08.062+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:08.883+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:08.897+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:08.903+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/example_etl.py                                           0           0  0.52s           2022-09-22T13:15:38
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.25s           2022-09-22T13:17:40
+/opt/airflow/dags/data_ingestion_dag/main.py                                       1           0  0.84s           2022-09-22T13:15:38
+================================================================================
+[2022-09-22T13:18:09.076+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:09.083+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:09.911+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:09.913+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:10.091+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:10.095+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:10.919+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:10.921+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:11.101+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:11.104+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:11.145+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:11.148+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:12.124+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:12.135+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:12.154+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:12.158+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:13.153+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:13.163+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:13.172+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:13.177+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:14.181+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:14.190+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:14.202+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:14.206+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:15.203+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:15.208+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:15.215+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:15.218+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:16.218+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:16.222+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:16.227+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:16.230+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:17.234+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:17.239+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:17.244+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:17.247+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:18.248+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:18.251+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:18.256+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:18.259+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:19.258+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:19.262+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:19.265+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:19.268+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:20.278+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:20.286+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:20.294+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:20.299+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:21.296+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:21.299+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:21.305+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:21.308+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:22.305+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:22.308+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:22.313+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:22.316+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:23.325+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:23.333+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:23.345+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:23.352+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:24.356+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:24.365+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:24.376+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:24.381+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:25.388+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:25.396+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:25.408+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:25.414+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:26.414+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:26.421+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:26.431+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:26.435+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:27.433+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:27.438+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:27.444+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:27.447+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:28.445+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:28.448+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:28.452+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:28.455+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:29.455+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:29.459+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:29.462+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:29.464+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:30.467+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:30.471+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:30.476+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:30.480+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:31.478+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:31.482+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:31.486+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:31.488+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:32.487+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:32.491+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:32.494+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:32.497+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:33.498+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:33.502+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:33.509+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/data_ingestion_dag/main.py
+[2022-09-22T13:18:33.513+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/scripts/example_etl.py
+[2022-09-22T13:18:34.512+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-09-22T13:18:34.571+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-09-22T13:18:39.623+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.22s           2022-09-22T13:18:11
+================================================================================
+[2022-09-22T13:19:09.809+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.23s           2022-09-22T13:18:41
+================================================================================
+[2022-09-22T13:19:40.291+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.22s           2022-09-22T13:19:12
+================================================================================
+[2022-09-22T13:19:51.554+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15

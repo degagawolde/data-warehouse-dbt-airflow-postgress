@@ -14,6 +14,28 @@ For each .csv file the following apply:
 - The last 6 columns are then repeated every 6 columns based on the time frequency. For example, column_5 contains the latitude of the vehicle at time column_10, and column_11 contains the latitude of the vehicle at time column_16.
 - Speed is in km/h, Longitudinal and Lateral Acceleration in m/sec2 and time in second
 
-# Airflow
+# Installation and Steps
 
-# DBT
+## Airflow
+- Create the data extraction and loading module
+- Containerize the module
+- Run Airflow in a container
+-  Modify the compose file to use multiple database users
+-  Create an Airflow DAG with a DockerOperator
+-  Test that the workflow actually populates the 
+containerized database
+
+ ## DBT
+-  Locally install dbt
+-  Connect dbt to the db and run models
+-  Generate dbt docs with Airflow
+-  Run dbt models as Airflow DAGs
+-  Containerized dbt with the rest
+
+## Redash
+- Install and connect Redash
+- Create sample visualization
+- Containerized Redash with the rest
+
+## dev,stage, prod
+ Create a dev, staging, and production area for the database.

@@ -54,4 +54,3 @@ containerized database
 </tr>
 </table>
 
-@degagawolde

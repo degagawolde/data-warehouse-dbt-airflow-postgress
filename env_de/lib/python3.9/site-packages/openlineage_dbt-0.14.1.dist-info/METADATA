@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: openlineage-dbt
+Version: 0.14.1
+Summary: OpenLineage integration with dbt
+Home-page: UNKNOWN
+Author: OpenLineage
+License: UNKNOWN
+Keywords: openlineage
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: sqlparse (<0.4,>=0.2.3)
+Requires-Dist: tqdm (>=4.62.0)
+Requires-Dist: openlineage-integration-common[dbt] (==0.14.1)
+Provides-Extra: dev
+Requires-Dist: mock ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: mypy (>=0.9.6) ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: python-dateutil ; extra == 'dev'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+Requires-Dist: mock ; extra == 'tests'
+Requires-Dist: flake8 ; extra == 'tests'
+Requires-Dist: mypy (>=0.9.6) ; extra == 'tests'
+Requires-Dist: python-dateutil ; extra == 'tests'
+
+# OpenLineage dbt integration
+
+Wrapper script for dbt for automatic metadata collection
+
+## Features
+
+**Metadata**
+
+* Model run lifecycle
+* Model inputs / outputs
+
+## Requirements
+
+- [Python >= 3.7](https://www.python.org/downloads)
+- [dbt >= 0.20](https://www.getdbt.com/)
+
+Right now, `openlineage-dbt` only supports `bigquery`, `snowflake`, `spark` and `redshift` dbt adapters.
+
+## Installation
+
+```bash
+$ pip3 install openlineage-dbt
+```
+
+To install from source, run:
+
+```bash
+$ pip install .
+```
+
+## Configuration
+
+
+### `HTTP` Backend Environment Variables
+
+`openlineage-dbt` uses OpenLineage client to push data to OpenLineage backend.
+
+OpenLineage client depends on environment variables:
+
+* `OPENLINEAGE_URL` - point to service which will consume OpenLineage events
+* `OPENLINEAGE_API_KEY` - set if consumer of OpenLineage events requires `Bearer` authentication key
+* `OPENLINEAGE_NAMESPACE` - set if you are using something other than the `default` namespace for job namespace.
+
+
+## Usage
+
+To begin collecting dbt metadata with OpenLineage, replace `dbt run` with `dbt-ol run`.
+
+Additional table and column level metadata will be available if `catalog.json`, result of running `dbt docs generate` will be found in target directory.
+
+

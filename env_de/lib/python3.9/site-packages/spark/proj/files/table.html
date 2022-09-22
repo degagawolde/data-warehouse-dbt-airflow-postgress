@@ -1,0 +1,417 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <title>Spark Admin</title>
+        <link href="/public/admin/ajax_tables.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="/public/js/MochiKit/MochiKit.js"></script>
+<script type="text/javascript">
+var row_offset = 0;
+var total_rows = ${total};
+
+xdb_delete_row = function(node){
+	var tddata = node.parentNode.parentNode.cells[1].childNodes[0].data;
+	var tdfield = node.parentNode.parentNode.parentNode.parentNode.tHead.rows[0].cells[1].childNodes[0].data;
+	//var agree = "Are you sure you want to do this:\n"+
+	//	'DELETE FROM ${table} WHERE '+tdfield+"='"+tddata+"'";
+	//alert(agree);
+	var agree = confirm("Are you Sure?");
+	if (agree){
+		document.sqlsubmit.dbfield.value = tdfield;
+		document.sqlsubmit.dbvalue.value = tddata;
+		document.sqlsubmit.submit();
+	}
+	else{
+		return false;
+	}
+}
+
+/* the following javascript codes are copied from 
+Mochikit sortable table demo, modified slightly */
+
+processMochiTAL = function (dom, data) {
+    // nodeType == 1 is an element, we're leaving
+    // text nodes alone.
+    if (dom.nodeType != 1) {
+        return;
+    }
+    var attr;
+    // duplicate this element for each item in the
+    // given list, and then process the duplicated
+    // element again (sans mochi:repeat tag)
+    attr = getAttribute(dom, "mochi:repeat");
+    if (attr) {
+        dom.removeAttribute("mochi:repeat");
+        var parent = dom.parentNode;
+        attr = attr.split(" ");
+        var name = attr[0];
+        var lst = valueForKeyPath(data, attr[1]);
+        if (!lst) {
+            return;
+        }
+        for (var i = 0; i < lst.length; i++) {
+            data[name] = lst[i];
+            var newDOM = dom.cloneNode(true);
+            processMochiTAL(newDOM, data);
+            parent.insertBefore(newDOM, dom);
+        }
+        parent.removeChild(dom);
+        return;
+    }
+    // do content replacement if there's a mochi:content attribute
+    // on the element
+    attr = getAttribute(dom, "mochi:content");
+    if (attr) {
+        dom.removeAttribute("mochi:content");
+        replaceChildNodes(dom, valueForKeyPath(data, attr));
+        return;
+    }
+    // we make a shallow copy of the current list of child nodes
+    // because it *will* change if there's a mochi:repeat in there!
+    var nodes = list(dom.childNodes);
+    for (var i = 0; i < nodes.length; i++) {
+        processMochiTAL(nodes[i], data);
+    }
+};
+
+mouseOverFunc = function () {
+    addElementClass(this, "over");
+};
+
+mouseOutFunc = function () {
+    removeElementClass(this, "over");
+};
+
+ignoreEvent = function (ev) {
+    if (ev && ev.preventDefault) {
+        ev.preventDefault();
+        ev.stopPropagation();
+    } else if (typeof(event) != 'undefined') {
+        event.cancelBubble = false;
+        event.returnValue = false;
+    }
+};
+
+SortTransforms = {
+    "str": operator.identity,
+    "istr": function (s) { return s.toLowerCase(); },
+    "isoDate": isoDate
+};
+
+getAttribute = function (dom, key) {
+    try {
+        return dom.getAttribute(key);
+    } catch (e) {
+        return null;
+    }
+};
+
+loadFromDataAnchor = function (ev) {
+    ignoreEvent(ev);
+    if(this.href.match("up")){
+        document.getElementById("datadown").style.display = "inline"
+        row_offset = row_offset+${rowsperpage};
+        if((row_offset+${rowsperpage}) >= total_rows) this.style.display = "none";
+        else this.style.display = "inline";
+    }
+    else{
+        document.getElementById("dataup").style.display = "inline"
+        if((row_offset-${rowsperpage}) <= 0) this.style.display = "none";
+        else this.style.display = "inline";
+        row_offset = row_offset-${rowsperpage};
+	if(row_offset<0)row_offset=0;
+    }
+    sortableManager.loadFromURL("json", "/admin/tabledata/${table}/"+row_offset);
+};
+
+valueForKeyPath = function (data, keyPath) {
+    var chunks = keyPath.split(".");
+    while (chunks.length && data) {
+        data = data[chunks.shift()];
+    }
+    return data;
+};
+
+
+SortableManager = function () {
+    this.thead = null;
+    this.thead_proto = null;
+    this.tbody = null;
+    this.deferred = null;
+    this.columns = [];
+    this.rows = [];
+    this.templates = [];
+    this.sortState = {};
+    bindMethods(this);
+};
+
+SortableManager.prototype = {
+
+    "initialize": function () {
+        // make a template list
+        var templates = getElementsByTagAndClassName(null, "mochi-template");
+        for (var i = 0; i < templates.length; i++) {
+            var template = templates[i];
+            var proto = template.cloneNode(true);
+            removeElementClass(proto, "mochi-template");
+            this.templates.push({
+                "template": proto,
+                "node": template
+            });
+        }
+        // set up the data anchors to do loads
+        var anchordown = document.getElementById("datadown");
+        anchordown.onclick = loadFromDataAnchor;
+        anchordown.style.display = "none"
+
+        var anchorup = document.getElementById("dataup");
+        anchorup.onclick = loadFromDataAnchor;
+	if((row_offset+${rowsperpage})>=total_rows)
+            anchorup.style.display = "none"
+
+        // to find sort columns
+        this.thead = getElementsByTagAndClassName("thead", null)[0];
+        this.thead_proto = this.thead.cloneNode(true);
+
+        this.sortkey = "${first_col}";
+        this.loadFromURL("json", "/admin/tabledata/${table}");
+    },
+
+    "loadFromURL": function (format, url) {
+        log('loadFromURL', format, url);
+        var d;
+        if (this.deferred) {
+            this.deferred.cancel();
+        }
+        if (format == "json") {
+            d = loadJSONDoc(url);
+        } else {
+            throw new TypeError("format " + repr(format) + " not supported");
+        }
+        // keep track of the current deferred, so that we can cancel it
+        this.deferred = d;
+        var self = this;
+        // on success or error, remove the current deferred because it has
+        // completed, and pass through the result or error
+        d.addBoth(function (res) {
+            self.deferred = null; 
+            log('loadFromURL success');
+            return res;
+        });
+        // on success, tag the result with the format used so we can display
+        // it
+        d.addCallback(function (res) {
+            res.format = format;
+            return res;
+        });
+        // call this.initWithData(data) once it's ready
+        d.addCallback(this.initWithData);
+        // if anything goes wrong, except for a simple cancellation,
+        // then log the error and show the logger
+        d.addErrback(function (err) {
+            if (err instanceof CancelledError) {
+                return;
+            }
+            logError(err);
+            logger.debuggingBookmarklet();
+        });
+        return d;
+    },
+
+    "initWithData": function (data) {
+        /***
+
+            Initialize the SortableManager with a table object
+        
+        ***/
+
+        // reformat to [{column:value, ...}, ...] style as the domains key
+        var domains = [];
+        var rows = data.rows;
+        var cols = data.columns;
+        for (var i = 0; i < rows.length; i++) {
+            var row = rows[i];
+            var domain = {};
+            for (var j = 0; j < cols.length; j++) {
+                domain[cols[j]] = row[j];
+            }
+            domains.push(domain);
+        }
+        data.domains = domains;
+        this.data = data;
+        // perform a sort and display based upon the previous sort state,
+        // defaulting to an ascending sort if this is the first sort
+        var order = this.sortState[this.sortkey];
+        if (typeof(order) == 'undefined') {
+            order = true;
+        }
+        this.drawSortedRows(this.sortkey, order, false);
+
+    },
+
+    "onSortClick": function (name) {
+        /***
+
+            Return a sort function for click events
+
+        ***/
+        // save ourselves from doing a bind
+        var self = this;
+        // on click, flip the last sort order of that column and sort
+        return function () {
+            log('onSortClick', name);
+            var order = self.sortState[name];
+            if (typeof(order) == 'undefined') {
+                // if it's never been sorted by this column, sort ascending
+                order = true;
+            } else if (self.sortkey == name) {
+                // if this column was sorted most recently, flip the sort order
+                order = !((typeof(order) == 'undefined') ? false : order);
+            }
+            self.drawSortedRows(name, order, true);
+        };
+    },
+
+    "drawSortedRows": function (key, forward, clicked) {
+        /***
+
+            Draw the new sorted table body, and modify the column headers
+            if appropriate
+
+        ***/
+        log('drawSortedRows', key, forward);
+
+        // save it so we can flip next time
+        this.sortState[key] = forward;
+        this.sortkey = key;
+        var sortstyle;
+
+        // setup the sort columns   
+        var thead = this.thead_proto.cloneNode(true);
+        var cols = thead.getElementsByTagName("th");
+        for (var i = 0; i < cols.length; i++) {
+            var col = cols[i];
+            var sortinfo = getAttribute(col, "mochi:sortcolumn").split(" ");
+            var sortkey = sortinfo[0];
+            col.onclick = this.onSortClick(sortkey);
+            col.onmousedown = ignoreEvent;
+            col.onmouseover = mouseOverFunc;
+            col.onmouseout = mouseOutFunc;
+            // if this is the sorted column
+            if (sortkey == key) {
+                sortstyle = sortinfo[1];
+                // \u2193 is down arrow, \u2191 is up arrow
+                // forward sorts mean the rows get bigger going down
+                var arrow = (forward ? "\u2193" : "\u2191");
+                // add the character to the column header
+                col.appendChild(SPAN(null, arrow));
+                if (clicked) {
+                    col.onmouseover();
+                }
+            }
+        }
+        this.thead = swapDOM(this.thead, thead);
+
+        // apply a sort transform to a temporary column named __sort__,
+        // and do the sort based on that column
+        if (!sortstyle) {
+            sortstyle = "str";
+        }
+        var sortfunc = SortTransforms[sortstyle];
+        if (!sortfunc) {
+            throw new TypeError("unsupported sort style " + repr(sortstyle));
+        }
+        var domains = this.data.domains;
+        for (var i = 0; i < domains.length; i++) {
+            var domain = domains[i];
+            domain.__sort__ = sortfunc(domain[key]);
+        }
+
+        // perform the sort based on the state given (forward or reverse)
+        var cmp = (forward ? keyComparator : reverseKeyComparator);
+        domains.sort(cmp("__sort__"));
+
+        // process every template with the given data
+        // and put the processed templates in the DOM
+        for (var i = 0; i < this.templates.length; i++) {
+            log('template', i, template);
+            var template = this.templates[i];
+            var dom = template.template.cloneNode(true);
+            processMochiTAL(dom, this.data);
+            template.node = swapDOM(template.node, dom);
+        }
+ 
+
+    }
+
+};
+
+// create the global SortableManager and initialize it on page load
+sortableManager = new SortableManager();
+addLoadEvent(sortableManager.initialize);
+</script>
+    </head>
+
+    <body>
+	<div>
+		<b>${dbname}->${table}</b> (<a href="/admin/${dbname}">Return to Tables</a>)<br /><br>
+	</div>
+	<div>
+	<form name="newrow" action="/admin/insert/${table}">
+        <table class="struct" width="100%">
+                <tr>
+                    <th>Field</th> <th>Type</th> <th>Null</th> <th>Key</th> <th>Default</th> <th>Extra</th><th>&nbsp;</th><th>New/Edit</th>
+                </tr>
+            <tbody>
+		<!-- BEGIN struct -->
+		<tr>
+		<td>${struct.field}</td> 
+		<td>${struct.type}</td> 
+		<td>${struct.null}</td> 
+		<td>${struct.key}</td> 
+		<td>${struct.default}</td> 
+		<td>${struct.extra}</td>
+		<td>&nbsp;</td>
+		<td>${struct.input}</td>
+		</tr>
+		<!-- END struct -->
+	    </tbody>
+	</table>
+	<p align="right"><input type="submit" value="Insert New" /></p>
+	</form>
+	<br />
+	</div>
+    <div>
+      [<a id="datadown" href="down">&lt;&lt;</a> ] 
+      [<a id="dataup" href="up">&gt;&gt;</a> ] 
+    </div> 
+        <table id="sortable_table" class="datagrid">
+
+            <thead>
+                <tr>
+                    <th mochi:sortcolumn="xdelete">Delete</th>
+		<!-- BEGIN desc -->
+                    <th mochi:sortcolumn="${desc.d} str">${desc.d}</th>
+		<!-- END desc -->
+                </tr>
+
+            </thead>
+            <tfoot class="invisible">
+                <tr>
+                    <td colspan="0"></td>
+                </tr>
+            </tfoot>
+            <tbody class="mochi-template">
+                <tr mochi:repeat="item domains">
+                    <td><a href="#" onclick="return xdb_delete_row(this);">Del!</a></td>
+		<!-- BEGIN col -->
+                    <td mochi:content="item.${col.desc}">${col.d}</td>
+		<!-- END col -->
+                </tr>
+            </tbody>
+        </table>
+	<form name="sqlsubmit" method="post" action="/admin/delete/${table}">
+	<input type="hidden" name="dbfield" values="1" />
+	<input type="hidden" name="dbvalue" values="0" />
+	</form>
+    </body>
+</html>

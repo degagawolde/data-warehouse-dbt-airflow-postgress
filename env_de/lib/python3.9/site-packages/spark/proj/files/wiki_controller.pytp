@@ -1,0 +1,51 @@
+"""
+run "mysql<sparkdemo.sql" before trying this example
+"""
+
+from spark.storm import Storm
+Storm.conn(driver='${driver}',${dbstring})
+<!-- BEGIN ismysql -->
+Storm.exe("set names utf8")
+<!-- END -->
+
+class wiki(Storm): pass
+
+frm_edit = """<html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"></head><body>
+<form action="/wiki/%s" method="post"> 
+<input type="%s" name="word" value="%s"/><br /> 
+<textarea name="content" rows="10" cols="60">%s</textarea> 
+<input type="submit" name="submit" value="Save"/> 
+</form></body></html>
+"""
+
+def index(r):
+	w=wiki.select()
+	return '<br>'.join(['<a href="/wiki/word/%s">%s</a>'%(o.word,o.word) for o in w] +
+		['','<a href="/wiki/new/">new</a>'])
+
+def word(r):
+	w = wiki.selectone(word=r.path[2])
+	if not w: return """This page doesn't exist<br>
+		<a href="/wiki/new/%s">Create?</a>
+		""" % r.path[2]
+	import re
+	content = re.compile(r"\b([A-Z]\w+[A-Z]+\w+)").sub(r'<a href="\1">\1</a>',w.content)
+	return """%s<br />
+	<a href="/wiki/edit/%s">Edit</a> &nbsp; <a href="/wiki">home</a>
+	""" % (content,r.path[2])
+
+def new(r):
+	if len(r.path)<3: itype, word = "text", ''
+	else: itype, word = "hidden", r.path[2]
+	return frm_edit % ('insert',itype,word,'')
+
+def edit(r):
+	return frm_edit % ('update',"hidden",r.path[2],wiki.selectone(word=r.path[2]).content)
+
+def insert(r):
+	wiki.insert(word=r.form["word"], content=r.form["content"])
+	r.redirect('/wiki')
+
+def update(r):
+	wiki.update("word='%s'"%r.form["word"],content=r.form["content"])
+	r.redirect('/wiki')

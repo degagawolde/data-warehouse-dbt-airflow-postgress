@@ -43,6 +43,7 @@ containerized database
  Create a dev, staging, and production area for the database.
 
 ### Contributors
+
 <table>
 <tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">

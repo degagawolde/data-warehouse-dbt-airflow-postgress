@@ -41,3 +41,16 @@ containerized database
  Create a dev, staging, and production area for the database.
 
 ### Contributors
+
+<table>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/degagawolde>
+            <img src=https://avatars.githubusercontent.com/u/39334921?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Degaga Wolde/>
+            <br />
+            <sub style="font-size:14px"><b>Degaga Wolde</b></sub>
+        </a>
+    </td>
+</tr>
+</table>
+

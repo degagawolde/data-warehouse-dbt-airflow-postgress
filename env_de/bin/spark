@@ -1,3 +1,0 @@
-#!/Users/user/TENAC/week-5-12/week-5/data-warehouse-dbt-airflow-postgress/env_de/bin/python3
-from spark import spark_admin
-spark_admin.main()

@@ -1,4 +1,5 @@
 import os
+from os.path import join, dirname
 from pprint import pprint
 from traceback import print_exc
 import pandas as pd
@@ -7,7 +8,8 @@ from sqlalchemy import text
 from sqlalchemy import inspect
 # from dotenv import load_dotenv
 
-# load_dotenv()
+# dotenv_path = join(dirname(__file__), '.env')
+# load_dotenv(dotenv_path)
 
 # Connect to your PostgreSQL database on a remote server
 HOST = os.getenv("DBHOST")
@@ -16,9 +18,13 @@ USER = os.getenv("DBUSER")
 PASS = os.getenv("DBPASS")
 DB = os.getenv("DB")
 
-TRAJECTORY_SCHEMA = "trajectory_info_schema.sql"
-VEHICLE_SCHEMA = "vehicle_info_schema.sql"
-CONNECTION_STR = f"postgresql+psycopg2://{USER}:{PASS}@{HOST}/{DB}"
+dag_path = os.getcwd()
+
+TRAJECTORY_SCHEMA = os.path.join(
+    dag_path, "dags/scripts/trajectory_info_schema.sql")
+VEHICLE_SCHEMA = os.path.join(dag_path, "dags/scripts/vehicle_info_schema.sql")
+
+CONNECTION_STR = f"postgresql+psycopg2://airflow:airflow@postgres/airflow"
 BANNER = "="*20
 
 # Connect to the database

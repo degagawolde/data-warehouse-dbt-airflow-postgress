@@ -1,0 +1,11 @@
+pNEUMA_DBT:
+  target: dev
+  outputs:
+    
+      host: postgres
+      user: airflow
+      password: airflow
+      port: 5434
+      dbname: airflow
+      schema: demo
+      threads: 4

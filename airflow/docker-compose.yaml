@@ -65,8 +65,9 @@ x-airflow-common:
     - ./plugins:/opt/airflow/plugins
     - ./db:/usr/local/airflow/db
     - ./raw_data:/opt/airflow/raw_data
-    - ./scripts:/opt/airflow/scripts
+    # - ./dags/scripts:/opt/airflow/scripts
     - ./processed_data:/opt/airflow/processed_data
+    - ../pNEUMA_DBT:/opt/airflow/dbt
   user: "${AIRFLOW_UID:-50000}:${AIRFLOW_GID:-50000}"
   depends_on:
     &airflow-common-depends-on
@@ -78,6 +79,8 @@ x-airflow-common:
 services:
   postgres:
     image: postgres:13
+    ports:
+      - 5434:5432
     environment:
       POSTGRES_USER: airflow
       POSTGRES_PASSWORD: airflow
@@ -86,6 +89,20 @@ services:
       - postgres-db-volume:/var/lib/postgresql/data
     healthcheck:
       test: ["CMD", "pg_isready", "-U", "airflow"]
+      interval: 5s
+      retries: 5
+    restart: always
+
+  postgres-dbt:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: dbt
+      POSTGRES_PASSWORD: dbt
+      POSTGRES_DB: dbt
+    volumes:
+      - postgres-db-dbt:/var/lib/postgresql/dbt_data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "dbt"]
       interval: 5s
       retries: 5
     restart: always
@@ -99,7 +116,7 @@ services:
       interval: 5s
       timeout: 30s
       retries: 50
-    restart: always
+    restart: always   
 
   airflow-webserver:
     <<: *airflow-common
@@ -229,8 +246,8 @@ services:
           echo "   https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html#before-you-begin"
           echo
         fi
-        mkdir -p /sources/logs /sources/dags /sources/plugins /sources/db /sources/raw_data /sources/processed_data /sources/scripts
-        # chown -R "${AIRFLOW_UID}:0" /sources/{logs,dags,plugins,db,raw_data,processed_data,scripts}
+        mkdir -p /sources/logs /sources/dags /sources/plugins /sources/db /sources/raw_data /sources/processed_data /sources/scripts /sources/dbt
+        # chown -R "${AIRFLOW_UID}:0" /sources/{logs,dags,plugins,db,raw_data,processed_data,scripts,dbt}
         exec /entrypoint airflow version
     # yamllint enable rule:line-length
     environment:
@@ -278,5 +295,32 @@ services:
       airflow-init:
         condition: service_completed_successfully
 
+  dbt:
+    image: python:3.9
+    entrypoint: /bin/bash
+    command:
+      - -c
+      - |
+        pip install wtforms==2.3.3
+        pip install --upgrade pip wheel setuptools
+        pip install dbt-postgres
+    depends_on:
+      - postgres
+      - postgres-dbt
+    environment:
+      <<: *airflow-common-env
+    volumes:
+      - .:/sources
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8000:8080
+    depends_on:
+      - postgres
+      - postgres-dbt
+  
 volumes:
   postgres-db-volume:
+  postgres-db-dbt:

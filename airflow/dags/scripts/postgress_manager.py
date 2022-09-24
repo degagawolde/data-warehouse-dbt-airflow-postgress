@@ -20,9 +20,6 @@ DB = os.getenv("DB")
 
 dag_path = os.getcwd()
 
-TRAJECTORY_SCHEMA = os.path.join(
-    dag_path, "dags/scripts/trajectory_info_schema.sql")
-VEHICLE_SCHEMA = os.path.join(dag_path, "dags/scripts/vehicle_info_schema.sql")
 
 CONNECTION_STR = f"postgresql+psycopg2://airflow:airflow@postgres/airflow"
 BANNER = "="*20
@@ -31,14 +28,13 @@ BANNER = "="*20
 ENGINE = create_engine(CONNECTION_STR)
 
 # Create the tables
-def create_tables():
+def create_tables(name):
     try:
         with ENGINE.connect() as conn:
-            for name in [VEHICLE_SCHEMA, TRAJECTORY_SCHEMA]:
-                with open(name) as file:
-                    query = text(file.read())
-                    conn.execute(query)
-        print("Successfully created 2 tables")
+            with open(name) as file:
+                query = text(file.read())
+                conn.execute(query)
+        print("Successfully created {} table".format(name.split(".")[-2]))
     except:
         print("Unable to create the Tables")
         print(print_exc())

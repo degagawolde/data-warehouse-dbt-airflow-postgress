@@ -32515,3 +32515,1905 @@ File Path                                                 PID    Runtime      # 
 /opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.39s           2022-09-24T12:15:25
 /opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.46s           2022-09-24T12:15:25
 ================================================================================
+[2022-09-24T12:16:09.047+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-09-24T12:16:09.084+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2022-09-24T12:16:12.158+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.30s           2022-09-24T12:15:55
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.35s           2022-09-24T12:15:56
+================================================================================
+[2022-09-24T12:16:42.736+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.34s           2022-09-24T12:16:26
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.37s           2022-09-24T12:16:26
+================================================================================
+[2022-09-24T12:17:13.303+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.32s           2022-09-24T12:16:57
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.37s           2022-09-24T12:16:57
+================================================================================
+[2022-09-24T12:17:43.993+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.39s           2022-09-24T12:17:27
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.46s           2022-09-24T12:17:27
+================================================================================
+[2022-09-24T12:18:14.596+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.30s           2022-09-24T12:17:58
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.35s           2022-09-24T12:17:58
+================================================================================
+[2022-09-24T12:18:45.199+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.35s           2022-09-24T12:18:29
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.38s           2022-09-24T12:18:29
+================================================================================
+[2022-09-24T12:19:15.736+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.26s           2022-09-24T12:18:59
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.31s           2022-09-24T12:18:59
+================================================================================
+[2022-09-24T12:19:46.622+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.51s           2022-09-24T12:19:30
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.56s           2022-09-24T12:19:30
+================================================================================
+[2022-09-24T12:20:17.183+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.29s           2022-09-24T12:20:01
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.36s           2022-09-24T12:20:01
+================================================================================
+[2022-09-24T12:20:47.740+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.33s           2022-09-24T12:20:31
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.39s           2022-09-24T12:20:31
+================================================================================
+[2022-09-24T12:21:09.280+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-09-24T12:21:09.326+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2022-09-24T12:21:18.432+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.31s           2022-09-24T12:21:02
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.38s           2022-09-24T12:21:02
+================================================================================
+[2022-09-24T12:21:49.046+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.29s           2022-09-24T12:21:32
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.30s           2022-09-24T12:21:32
+================================================================================
+[2022-09-24T12:22:19.608+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.28s           2022-09-24T12:22:03
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.33s           2022-09-24T12:22:03
+================================================================================
+[2022-09-24T12:22:50.268+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.32s           2022-09-24T12:22:34
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.39s           2022-09-24T12:22:34
+================================================================================
+[2022-09-24T12:23:20.867+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.29s           2022-09-24T12:23:04
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.36s           2022-09-24T12:23:04
+================================================================================
+[2022-09-24T12:23:51.634+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.45s           2022-09-24T12:23:35
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.48s           2022-09-24T12:23:35
+================================================================================
+[2022-09-24T12:24:22.266+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.28s           2022-09-24T12:24:06
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.33s           2022-09-24T12:24:06
+================================================================================
+[2022-09-24T12:24:52.895+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.37s           2022-09-24T12:24:36
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.43s           2022-09-24T12:24:36
+================================================================================
+[2022-09-24T12:25:23.489+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.26s           2022-09-24T12:25:07
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.31s           2022-09-24T12:25:07
+================================================================================
+[2022-09-24T12:25:54.149+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.32s           2022-09-24T12:25:37
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.37s           2022-09-24T12:25:38
+================================================================================
+[2022-09-24T12:26:09.657+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-09-24T12:26:09.715+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2022-09-24T12:26:24.867+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.31s           2022-09-24T12:26:08
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.37s           2022-09-24T12:26:08
+================================================================================
+[2022-09-24T12:26:55.476+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.30s           2022-09-24T12:26:39
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.37s           2022-09-24T12:26:39
+================================================================================
+[2022-09-24T12:27:26.085+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.28s           2022-09-24T12:27:09
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.36s           2022-09-24T12:27:09
+================================================================================
+[2022-09-24T12:27:56.717+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.31s           2022-09-24T12:27:40
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.38s           2022-09-24T12:27:40
+================================================================================
+[2022-09-24T12:28:27.319+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.30s           2022-09-24T12:28:11
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.35s           2022-09-24T12:28:11
+================================================================================
+[2022-09-24T12:28:57.972+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.30s           2022-09-24T12:28:41
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.36s           2022-09-24T12:28:41
+================================================================================
+[2022-09-24T12:29:28.608+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.32s           2022-09-24T12:29:12
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.39s           2022-09-24T12:29:12
+================================================================================
+[2022-09-24T12:29:59.236+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.29s           2022-09-24T12:29:43
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.35s           2022-09-24T12:29:43
+================================================================================
+[2022-09-24T12:30:29.816+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.28s           2022-09-24T12:30:13
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.34s           2022-09-24T12:30:13
+================================================================================
+[2022-09-24T12:31:00.452+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.32s           2022-09-24T12:30:44
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.38s           2022-09-24T12:30:44
+================================================================================
+[2022-09-24T12:31:10.556+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-09-24T12:31:10.627+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2022-09-24T12:31:31.187+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.38s           2022-09-24T12:31:15
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.45s           2022-09-24T12:31:15
+================================================================================
+[2022-09-24T12:32:01.818+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.30s           2022-09-24T12:31:45
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.38s           2022-09-24T12:31:45
+================================================================================
+[2022-09-24T12:32:32.443+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.33s           2022-09-24T12:32:16
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.38s           2022-09-24T12:32:16
+================================================================================
+[2022-09-24T12:33:03.093+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.32s           2022-09-24T12:32:46
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.42s           2022-09-24T12:32:47
+================================================================================
+[2022-09-24T12:33:33.708+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.29s           2022-09-24T12:33:17
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.36s           2022-09-24T12:33:17
+================================================================================
+[2022-09-24T12:34:04.299+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.32s           2022-09-24T12:33:48
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.37s           2022-09-24T12:33:48
+================================================================================
+[2022-09-24T12:34:34.925+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.34s           2022-09-24T12:34:18
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.40s           2022-09-24T12:34:18
+================================================================================
+[2022-09-24T12:35:05.512+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.36s           2022-09-24T12:34:49
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.43s           2022-09-24T12:34:49
+================================================================================
+[2022-09-24T12:35:36.228+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.43s           2022-09-24T12:35:20
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.53s           2022-09-24T12:35:20
+================================================================================
+[2022-09-24T12:36:06.933+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.39s           2022-09-24T12:35:50
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.43s           2022-09-24T12:35:50
+================================================================================
+[2022-09-24T12:36:10.979+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-09-24T12:36:11.048+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2022-09-24T12:36:37.593+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.30s           2022-09-24T12:36:21
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.35s           2022-09-24T12:36:21
+================================================================================
+[2022-09-24T12:37:08.208+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.36s           2022-09-24T12:36:52
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.42s           2022-09-24T12:36:52
+================================================================================
+[2022-09-24T12:37:38.844+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.38s           2022-09-24T12:37:22
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.44s           2022-09-24T12:37:22
+================================================================================
+[2022-09-24T12:38:09.402+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.30s           2022-09-24T12:37:53
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.36s           2022-09-24T12:37:53
+================================================================================
+[2022-09-24T12:38:40.175+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.45s           2022-09-24T12:38:24
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.51s           2022-09-24T12:38:24
+================================================================================
+[2022-09-24T12:39:10.842+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.33s           2022-09-24T12:38:54
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.38s           2022-09-24T12:38:54
+================================================================================
+[2022-09-24T12:39:41.429+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.31s           2022-09-24T12:39:25
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.70s           2022-09-24T12:39:25
+================================================================================
+[2022-09-24T12:40:12.018+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.30s           2022-09-24T12:39:55
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.23s           2022-09-24T12:39:56
+================================================================================
+[2022-09-24T12:40:42.821+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.48s           2022-09-24T12:40:26
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.53s           2022-09-24T12:40:26
+================================================================================
+[2022-09-24T12:41:11.370+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-09-24T12:41:11.442+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2022-09-24T12:41:13.508+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.29s           2022-09-24T12:40:57
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.34s           2022-09-24T12:40:57
+================================================================================
+[2022-09-24T12:41:44.047+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.25s           2022-09-24T12:41:27
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.30s           2022-09-24T12:41:27
+================================================================================
+[2022-09-24T12:42:14.547+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.30s           2022-09-24T12:41:58
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.36s           2022-09-24T12:41:58
+================================================================================
+[2022-09-24T12:42:45.310+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.46s           2022-09-24T12:42:29
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.51s           2022-09-24T12:42:29
+================================================================================
+[2022-09-24T12:43:15.854+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.29s           2022-09-24T12:42:59
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.33s           2022-09-24T12:42:59
+================================================================================
+[2022-09-24T12:43:46.673+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.47s           2022-09-24T12:43:30
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.56s           2022-09-24T12:43:30
+================================================================================
+[2022-09-24T12:44:17.287+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.32s           2022-09-24T12:44:01
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.37s           2022-09-24T12:44:01
+================================================================================
+[2022-09-24T12:44:47.938+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.36s           2022-09-24T12:44:31
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.43s           2022-09-24T12:44:31
+================================================================================
+[2022-09-24T12:45:18.549+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.27s           2022-09-24T12:45:02
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.32s           2022-09-24T12:45:02
+================================================================================
+[2022-09-24T12:45:49.157+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.34s           2022-09-24T12:45:33
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.39s           2022-09-24T12:45:33
+================================================================================
+[2022-09-24T12:46:11.674+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-09-24T12:46:11.724+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2022-09-24T12:46:19.834+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.31s           2022-09-24T12:46:03
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.54s           2022-09-24T12:46:03
+================================================================================
+[2022-09-24T12:46:50.522+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.28s           2022-09-24T12:46:34
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.33s           2022-09-24T12:46:34
+================================================================================
+[2022-09-24T12:47:21.103+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.34s           2022-09-24T12:47:04
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.40s           2022-09-24T12:47:05
+================================================================================
+[2022-09-24T12:47:51.711+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.31s           2022-09-24T12:47:35
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.37s           2022-09-24T12:47:35
+================================================================================
+[2022-09-24T12:48:22.337+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.32s           2022-09-24T12:48:06
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.37s           2022-09-24T12:48:06
+================================================================================
+[2022-09-24T12:48:52.900+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.33s           2022-09-24T12:48:36
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.53s           2022-09-24T12:48:37
+================================================================================
+[2022-09-24T12:49:23.458+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.35s           2022-09-24T12:49:07
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.50s           2022-09-24T12:49:07
+================================================================================
+[2022-09-24T12:49:53.963+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.28s           2022-09-24T12:49:37
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.43s           2022-09-24T12:49:38
+================================================================================
+[2022-09-24T12:50:24.491+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.33s           2022-09-24T12:50:08
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.43s           2022-09-24T12:50:08
+================================================================================
+[2022-09-24T12:50:56.425+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  1.01s           2022-09-24T12:50:39
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.98s           2022-09-24T12:50:39
+================================================================================
+[2022-09-24T12:51:11.820+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-09-24T12:51:11.908+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2022-09-24T12:55:46.307+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  1.85s           2022-09-24T12:55:46
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py  21027  1.79s             1           0  2.06s           2022-09-24T12:51:00
+================================================================================
+[2022-09-24T12:56:11.921+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-09-24T12:56:12.323+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2022-09-24T14:17:40.183+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-09-24T14:17:40.294+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2022-09-24T14:17:43.119+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py            21048  2.72s             0           0  1.85s           2022-09-24T12:55:46
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py  21049  2.70s             1           0  2.25s           2022-09-24T12:55:46
+================================================================================
+[2022-09-24T14:26:09.261+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-09-24T14:26:09.411+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2022-09-24T14:26:12.314+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  1.73s           2022-09-24T14:26:11
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py  21070  2.73s             1           0  4.06s           2022-09-24T14:17:44
+================================================================================
+[2022-09-24T14:26:42.424+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py            21094  1.04s             0           0  1.73s           2022-09-24T14:26:11
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  1.51s           2022-09-24T14:26:15
+================================================================================
+[2022-09-24T14:27:13.141+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py            21125  0.02s             0           0  1.39s           2022-09-24T14:26:42
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.38s           2022-09-24T14:26:46
+================================================================================
+[2022-09-24T14:27:43.694+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py            21155  0.01s             0           0  0.31s           2022-09-24T14:27:13
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.28s           2022-09-24T14:27:16
+================================================================================
+[2022-09-24T14:28:14.269+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py            21186  0.01s             0           0  0.30s           2022-09-24T14:27:43
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.30s           2022-09-24T14:27:47
+================================================================================
+[2022-09-24T14:28:44.658+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.52s           2022-09-24T14:28:14
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.28s           2022-09-24T14:28:17
+================================================================================
+[2022-09-24T14:29:15.545+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py            21239  0.01s             0           0  0.36s           2022-09-24T14:28:45
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.51s           2022-09-24T14:28:48
+================================================================================
+[2022-09-24T14:29:45.570+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.35s           2022-09-24T14:29:15
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.68s           2022-09-24T14:29:19
+================================================================================
+[2022-09-24T14:30:15.713+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.28s           2022-09-24T14:29:46
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.48s           2022-09-24T14:29:49
+================================================================================
+[2022-09-24T14:30:45.765+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.45s           2022-09-24T14:30:17
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.27s           2022-09-24T14:30:20
+================================================================================
+[2022-09-24T14:31:09.610+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-09-24T14:31:09.710+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2022-09-24T14:31:15.776+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.33s           2022-09-24T14:30:47
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.64s           2022-09-24T14:30:51
+================================================================================
+[2022-09-24T14:31:46.633+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.26s           2022-09-24T14:31:18
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.31s           2022-09-24T14:31:22
+================================================================================
+[2022-09-24T14:32:17.005+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.64s           2022-09-24T14:31:49
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.46s           2022-09-24T14:31:53
+================================================================================
+[2022-09-24T14:32:47.051+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.32s           2022-09-24T14:32:19
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.49s           2022-09-24T14:32:23
+================================================================================
+[2022-09-24T14:33:17.610+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.31s           2022-09-24T14:32:50
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.54s           2022-09-24T14:32:54
+================================================================================
+[2022-09-24T14:33:48.199+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.24s           2022-09-24T14:33:20
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.38s           2022-09-24T14:33:25
+================================================================================
+[2022-09-24T14:34:18.835+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.35s           2022-09-24T14:33:51
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.32s           2022-09-24T14:33:55
+================================================================================
+[2022-09-24T14:34:49.458+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.36s           2022-09-24T14:34:22
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.32s           2022-09-24T14:34:26
+================================================================================
+[2022-09-24T14:35:20.102+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.31s           2022-09-24T14:34:52
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.37s           2022-09-24T14:34:57
+================================================================================
+[2022-09-24T14:35:50.483+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.37s           2022-09-24T14:35:23
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.28s           2022-09-24T14:35:27
+================================================================================
+[2022-09-24T14:36:10.146+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-09-24T14:36:10.226+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2022-09-24T14:36:20.598+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.31s           2022-09-24T14:35:54
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.66s           2022-09-24T14:35:58
+================================================================================
+[2022-09-24T14:36:50.803+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.24s           2022-09-24T14:36:24
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.58s           2022-09-24T14:36:29
+================================================================================
+[2022-09-24T14:37:21.405+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.31s           2022-09-24T14:36:55
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.33s           2022-09-24T14:37:00
+================================================================================
+[2022-09-24T14:37:51.985+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.27s           2022-09-24T14:37:25
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.33s           2022-09-24T14:37:30
+================================================================================
+[2022-09-24T14:38:22.665+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.38s           2022-09-24T14:37:56
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.39s           2022-09-24T14:38:01
+================================================================================
+[2022-09-24T14:38:53.186+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.25s           2022-09-24T14:38:26
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.40s           2022-09-24T14:38:32
+================================================================================
+[2022-09-24T14:39:23.618+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.68s           2022-09-24T14:38:57
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.28s           2022-09-24T14:39:02
+================================================================================
+[2022-09-24T14:39:53.668+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.24s           2022-09-24T14:39:28
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.54s           2022-09-24T14:39:33
+================================================================================
+[2022-09-24T14:40:23.899+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.39s           2022-09-24T14:39:59
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.31s           2022-09-24T14:40:03
+================================================================================
+[2022-09-24T14:40:54.423+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.26s           2022-09-24T14:40:30
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.27s           2022-09-24T14:40:34
+================================================================================
+[2022-09-24T14:41:10.992+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-09-24T14:41:11.053+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2022-09-24T14:41:25.183+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.42s           2022-09-24T14:41:00
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.30s           2022-09-24T14:41:05
+================================================================================
+[2022-09-24T14:41:55.781+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.33s           2022-09-24T14:41:31
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.57s           2022-09-24T14:41:35
+================================================================================
+[2022-09-24T14:42:26.329+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.30s           2022-09-24T14:42:02
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.27s           2022-09-24T14:42:06
+================================================================================
+[2022-09-24T14:42:56.838+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.25s           2022-09-24T14:42:32
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.46s           2022-09-24T14:42:36
+================================================================================
+[2022-09-24T14:43:27.430+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.30s           2022-09-24T14:43:03
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.45s           2022-09-24T14:43:07
+================================================================================
+[2022-09-24T14:43:58.022+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.30s           2022-09-24T14:43:33
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.25s           2022-09-24T14:43:38
+================================================================================
+[2022-09-24T14:44:28.550+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.26s           2022-09-24T14:44:04
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.35s           2022-09-24T14:44:08
+================================================================================
+[2022-09-24T14:44:59.236+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.42s           2022-09-24T14:44:35
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.30s           2022-09-24T14:44:39
+================================================================================
+[2022-09-24T14:45:29.780+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.26s           2022-09-24T14:45:05
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.22s           2022-09-24T14:45:09
+================================================================================
+[2022-09-24T14:46:00.322+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.32s           2022-09-24T14:45:36
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.47s           2022-09-24T14:45:40
+================================================================================
+[2022-09-24T14:46:11.048+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-09-24T14:46:11.075+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2022-09-24T14:46:30.846+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.27s           2022-09-24T14:46:06
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.46s           2022-09-24T14:46:11
+================================================================================
+[2022-09-24T14:47:01.561+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.40s           2022-09-24T14:46:37
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.27s           2022-09-24T14:46:41
+================================================================================
+[2022-09-24T14:47:32.062+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.24s           2022-09-24T14:47:07
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.45s           2022-09-24T14:47:12
+================================================================================
+[2022-09-24T14:48:02.729+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.34s           2022-09-24T14:47:38
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.29s           2022-09-24T14:47:42
+================================================================================
+[2022-09-24T14:48:33.290+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.33s           2022-09-24T14:48:09
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.32s           2022-09-24T14:48:13
+================================================================================
+[2022-09-24T14:49:03.788+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.24s           2022-09-24T14:48:39
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.26s           2022-09-24T14:48:43
+================================================================================
+[2022-09-24T14:49:34.008+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.26s           2022-09-24T14:49:10
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.75s           2022-09-24T14:49:14
+================================================================================
+[2022-09-24T14:50:04.293+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.33s           2022-09-24T14:49:40
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.81s           2022-09-24T14:49:46
+================================================================================
+[2022-09-24T14:50:34.350+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.37s           2022-09-24T14:50:11
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.63s           2022-09-24T14:50:16
+================================================================================
+[2022-09-24T14:51:04.806+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  1.64s           2022-09-24T14:50:44
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.66s           2022-09-24T14:50:53
+================================================================================
+[2022-09-24T14:51:11.150+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-09-24T14:51:11.201+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2022-09-24T14:51:35.367+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.32s           2022-09-24T14:51:15
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.36s           2022-09-24T14:51:24
+================================================================================
+[2022-09-24T14:52:05.897+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.25s           2022-09-24T14:51:45
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.28s           2022-09-24T14:51:54
+================================================================================
+[2022-09-24T14:52:36.429+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.28s           2022-09-24T14:52:16
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.46s           2022-09-24T14:52:25
+================================================================================
+[2022-09-24T14:53:06.578+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.27s           2022-09-24T14:52:46
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.66s           2022-09-24T14:52:56
+================================================================================
+[2022-09-24T14:53:37.494+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.26s           2022-09-24T14:53:17
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.29s           2022-09-24T14:53:27
+================================================================================
+[2022-09-24T14:54:08.091+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.38s           2022-09-24T14:53:47
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.32s           2022-09-24T14:53:58
+================================================================================
+[2022-09-24T14:54:38.777+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.41s           2022-09-24T14:54:18
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.43s           2022-09-24T14:54:28
+================================================================================
+[2022-09-24T14:55:09.403+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.32s           2022-09-24T14:54:49
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.44s           2022-09-24T14:54:59
+================================================================================
+[2022-09-24T14:55:39.725+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.28s           2022-09-24T14:55:19
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.96s           2022-09-24T14:55:30
+================================================================================
+[2022-09-24T14:56:10.289+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.32s           2022-09-24T14:55:50
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.54s           2022-09-24T14:56:01
+================================================================================
+[2022-09-24T14:56:11.304+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-09-24T14:56:11.368+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2022-09-24T14:56:40.976+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.31s           2022-09-24T14:56:20
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.38s           2022-09-24T14:56:32
+================================================================================
+[2022-09-24T14:57:11.599+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.28s           2022-09-24T14:56:51
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.39s           2022-09-24T14:57:02
+================================================================================
+[2022-09-24T14:57:41.703+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.37s           2022-09-24T14:57:22
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.52s           2022-09-24T14:57:33
+================================================================================
+[2022-09-24T14:58:11.864+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.39s           2022-09-24T14:57:52
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.48s           2022-09-24T14:58:04
+================================================================================
+[2022-09-24T14:58:41.885+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.38s           2022-09-24T14:58:23
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.41s           2022-09-24T14:58:34
+================================================================================
+[2022-09-24T14:59:11.921+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.49s           2022-09-24T14:58:54
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.76s           2022-09-24T14:59:05
+================================================================================
+[2022-09-24T14:59:41.985+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.27s           2022-09-24T14:59:24
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.60s           2022-09-24T14:59:36
+================================================================================
+[2022-09-24T15:00:12.265+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.27s           2022-09-24T14:59:55
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.41s           2022-09-24T15:00:07
+================================================================================
+[2022-09-24T15:00:42.391+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.41s           2022-09-24T15:00:25
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.48s           2022-09-24T15:00:38
+================================================================================
+[2022-09-24T15:01:11.770+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-09-24T15:01:11.884+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2022-09-24T15:01:12.923+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.58s           2022-09-24T15:00:56
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.42s           2022-09-24T15:01:09
+================================================================================
+[2022-09-24T15:01:43.347+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.22s           2022-09-24T15:01:27
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.30s           2022-09-24T15:01:39
+================================================================================
+[2022-09-24T15:02:13.471+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.28s           2022-09-24T15:01:57
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.60s           2022-09-24T15:02:10
+================================================================================
+[2022-09-24T15:02:43.687+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.32s           2022-09-24T15:02:28
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.53s           2022-09-24T15:02:41
+================================================================================
+[2022-09-24T15:03:14.126+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.42s           2022-09-24T15:02:59
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.48s           2022-09-24T15:03:12
+================================================================================
+[2022-09-24T15:03:44.724+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.36s           2022-09-24T15:03:29
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.34s           2022-09-24T15:03:42
+================================================================================
+[2022-09-24T15:04:15.283+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.27s           2022-09-24T15:04:00
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.48s           2022-09-24T15:04:13
+================================================================================
+[2022-09-24T15:04:45.544+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.29s           2022-09-24T15:04:30
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.70s           2022-09-24T15:04:44
+================================================================================
+[2022-09-24T15:05:15.751+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.35s           2022-09-24T15:05:01
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.66s           2022-09-24T15:05:15
+================================================================================
+[2022-09-24T15:05:46.027+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.28s           2022-09-24T15:05:31
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py  23284  0.02s             1           0  0.66s           2022-09-24T15:05:15
+================================================================================
+[2022-09-24T15:06:12.305+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-09-24T15:06:12.377+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2022-09-24T15:06:16.443+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.30s           2022-09-24T15:06:02
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.66s           2022-09-24T15:05:46
+================================================================================
+[2022-09-24T15:06:46.844+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.28s           2022-09-24T15:06:32
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.67s           2022-09-24T15:06:18
+================================================================================
+[2022-09-24T15:07:17.388+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.35s           2022-09-24T15:07:03
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.75s           2022-09-24T15:06:49
+================================================================================
+[2022-09-24T15:07:48.283+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.37s           2022-09-24T15:07:34
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.38s           2022-09-24T15:07:20
+================================================================================
+[2022-09-24T15:08:18.975+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.36s           2022-09-24T15:08:04
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.38s           2022-09-24T15:07:50
+================================================================================
+[2022-09-24T15:08:49.365+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.32s           2022-09-24T15:08:35
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.45s           2022-09-24T15:08:21
+================================================================================
+[2022-09-24T15:09:19.990+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.45s           2022-09-24T15:09:06
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.56s           2022-09-24T15:08:52
+================================================================================
+[2022-09-24T15:09:50.026+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.36s           2022-09-24T15:09:36
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.58s           2022-09-24T15:09:22
+================================================================================
+[2022-09-24T15:10:20.348+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.27s           2022-09-24T15:10:07
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.44s           2022-09-24T15:09:53
+================================================================================
+[2022-09-24T15:10:50.746+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.28s           2022-09-24T15:10:37
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.40s           2022-09-24T15:10:23
+================================================================================
+[2022-09-24T15:11:12.712+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-09-24T15:11:12.748+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2022-09-24T15:11:20.842+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.47s           2022-09-24T15:11:08
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  1.10s           2022-09-24T15:10:55
+================================================================================
+[2022-09-24T15:11:50.971+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.34s           2022-09-24T15:11:39
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.41s           2022-09-24T15:11:25
+================================================================================
+[2022-09-24T15:12:21.595+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.33s           2022-09-24T15:12:09
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.83s           2022-09-24T15:11:56
+================================================================================
+[2022-09-24T15:12:52.137+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.36s           2022-09-24T15:12:40
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.61s           2022-09-24T15:12:27
+================================================================================
+[2022-09-24T15:13:22.485+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.22s           2022-09-24T15:13:10
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.77s           2022-09-24T15:12:58
+================================================================================
+[2022-09-24T15:13:53.156+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.29s           2022-09-24T15:13:41
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.40s           2022-09-24T15:13:28
+================================================================================
+[2022-09-24T15:14:23.476+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.29s           2022-09-24T15:14:11
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.38s           2022-09-24T15:13:59
+================================================================================
+[2022-09-24T15:14:54.125+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.26s           2022-09-24T15:14:42
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.44s           2022-09-24T15:14:30
+================================================================================
+[2022-09-24T15:15:24.697+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.40s           2022-09-24T15:15:12
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.59s           2022-09-24T15:15:01
+================================================================================
+[2022-09-24T15:15:55.301+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.38s           2022-09-24T15:15:43
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.99s           2022-09-24T15:15:32
+================================================================================
+[2022-09-24T15:16:12.805+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-09-24T15:16:12.875+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2022-09-24T15:16:26.092+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.33s           2022-09-24T15:16:14
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.57s           2022-09-24T15:16:02
+================================================================================
+[2022-09-24T15:16:56.567+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.35s           2022-09-24T15:16:44
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.61s           2022-09-24T15:16:33
+================================================================================
+[2022-09-24T15:17:27.149+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.23s           2022-09-24T15:17:15
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.38s           2022-09-24T15:17:04
+================================================================================
+[2022-09-24T15:17:57.552+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.44s           2022-09-24T15:17:45
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.59s           2022-09-24T15:17:34
+================================================================================
+[2022-09-24T15:18:28.287+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.26s           2022-09-24T15:18:16
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.42s           2022-09-24T15:18:05
+================================================================================
+[2022-09-24T15:18:58.794+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.30s           2022-09-24T15:18:47
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.63s           2022-09-24T15:18:36
+================================================================================
+[2022-09-24T15:19:29.299+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.22s           2022-09-24T15:19:17
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.63s           2022-09-24T15:19:07
+================================================================================
+[2022-09-24T15:19:59.764+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.27s           2022-09-24T15:19:47
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.54s           2022-09-24T15:19:38
+================================================================================
+[2022-09-24T15:20:30.259+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.22s           2022-09-24T15:20:18
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.44s           2022-09-24T15:20:09
+================================================================================
+[2022-09-24T15:21:00.896+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.19s           2022-09-24T15:20:48
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.35s           2022-09-24T15:20:39
+================================================================================
+[2022-09-24T15:21:13.043+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-09-24T15:21:13.080+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2022-09-24T15:21:31.487+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.38s           2022-09-24T15:21:19
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.33s           2022-09-24T15:21:10
+================================================================================
+[2022-09-24T15:22:01.818+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.23s           2022-09-24T15:21:49
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.55s           2022-09-24T15:21:41
+================================================================================
+[2022-09-24T15:22:32.232+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.29s           2022-09-24T15:22:20
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.68s           2022-09-24T15:22:12
+================================================================================
+[2022-09-24T15:23:02.794+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.19s           2022-09-24T15:22:50
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.54s           2022-09-24T15:22:43
+================================================================================
+[2022-09-24T15:23:33.250+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.21s           2022-09-24T15:23:21
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.63s           2022-09-24T15:23:14
+================================================================================
+[2022-09-24T15:24:03.694+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.24s           2022-09-24T15:23:51
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.47s           2022-09-24T15:23:45
+================================================================================
+[2022-09-24T15:24:34.198+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.19s           2022-09-24T15:24:22
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.39s           2022-09-24T15:24:16
+================================================================================
+[2022-09-24T15:25:04.659+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.26s           2022-09-24T15:24:52
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.36s           2022-09-24T15:24:46
+================================================================================
+[2022-09-24T15:25:35.138+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.21s           2022-09-24T15:25:23
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.48s           2022-09-24T15:25:17
+================================================================================
+[2022-09-24T15:26:05.524+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.27s           2022-09-24T15:25:53
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.65s           2022-09-24T15:25:49
+================================================================================
+[2022-09-24T15:26:13.597+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-09-24T15:26:13.654+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2022-09-24T15:26:35.968+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.28s           2022-09-24T15:26:24
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.56s           2022-09-24T15:26:20
+================================================================================
+[2022-09-24T15:27:06.593+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.22s           2022-09-24T15:26:54
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.38s           2022-09-24T15:26:50
+================================================================================
+[2022-09-24T15:27:37.486+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.55s           2022-09-24T15:27:25
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.46s           2022-09-24T15:27:21
+================================================================================
+[2022-09-24T15:28:07.832+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.26s           2022-09-24T15:27:55
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.48s           2022-09-24T15:27:52
+================================================================================
+[2022-09-24T15:28:38.277+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.18s           2022-09-24T15:28:26
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.60s           2022-09-24T15:28:23
+================================================================================
+[2022-09-24T15:29:08.688+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.18s           2022-09-24T15:28:56
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.55s           2022-09-24T15:28:54
+================================================================================
+[2022-09-24T15:29:39.066+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.19s           2022-09-24T15:29:27
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.55s           2022-09-24T15:29:26
+================================================================================
+[2022-09-24T15:30:09.244+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.54s           2022-09-24T15:29:57
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.88s           2022-09-24T15:29:58
+================================================================================
+[2022-09-24T15:30:39.451+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.31s           2022-09-24T15:30:28
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.24s           2022-09-24T15:30:28
+================================================================================
+[2022-09-24T15:31:09.972+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.30s           2022-09-24T15:30:58
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.29s           2022-09-24T15:30:59
+================================================================================
+[2022-09-24T15:31:14.004+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-09-24T15:31:14.032+0000] {manager.py:727} INFO - There are 2 files in /opt/airflow/dags
+[2022-09-24T15:31:40.533+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.28s           2022-09-24T15:31:29
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.63s           2022-09-24T15:31:29
+================================================================================
+[2022-09-24T15:32:10.550+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.27s           2022-09-24T15:32:00
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.44s           2022-09-24T15:32:00
+================================================================================
+[2022-09-24T15:32:40.701+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.31s           2022-09-24T15:32:30
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.40s           2022-09-24T15:32:31
+================================================================================
+[2022-09-24T15:33:10.759+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.26s           2022-09-24T15:33:01
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.55s           2022-09-24T15:33:01
+================================================================================
+[2022-09-24T15:33:41.274+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.79s           2022-09-24T15:33:32
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.56s           2022-09-24T15:33:32
+================================================================================
+[2022-09-24T15:34:11.834+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/postgress_manager.py                                     0           0  0.31s           2022-09-24T15:34:02
+/opt/airflow/dags/data_ingestion_dag/extract_load_dag.py                           1           0  0.27s           2022-09-24T15:34:03
+================================================================================

@@ -44,11 +44,18 @@ task_1 = PythonOperator(
 )
 
 task_2 = PythonOperator(
-    task_id='load_data',
-    python_callable=elt.load_data,
+    task_id='load_vehicle_data',
+    python_callable=elt.load_vehicle_data,
     # op_args=["{{ ds }} {{ execution_date.hour }}"],
     dag=ingestion_dag,
 )
 
+task_3 = PythonOperator(
+    task_id='load_trajectory_data',
+    python_callable=elt.load_trajectory_data,
+    # op_args=["{{ ds }} {{ execution_date.hour }}"],
+    dag=ingestion_dag,
+)
 
-task_1 >> task_2
+task_1 >> task_2 
+task_1 >> task_3

@@ -19,6 +19,8 @@ For each .csv file the following apply:
 # Installation and Steps
 
 ## Airflow
+
+![airflow dags](https://github.com/degagawolde/data-warehouse-dbt-airflow-postgress/blob/main/screenshots/airflow_dags.png)
 - Create the data extraction and loading module
 - Containerize the module
 - Run Airflow in a container

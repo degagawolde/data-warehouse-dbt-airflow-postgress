@@ -21,6 +21,7 @@ For each .csv file the following apply:
 ## Airflow
 
 ![airflow dags](https://github.com/degagawolde/data-warehouse-dbt-airflow-postgress/blob/main/screenshots/airflow_dags.png)
+![airflow logs](https://github.com/degagawolde/data-warehouse-dbt-airflow-postgress/blob/main/screenshots/airflow_dags_log.png)
 - Create the data extraction and loading module
 - Containerize the module
 - Run Airflow in a container

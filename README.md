@@ -31,6 +31,7 @@ For each .csv file the following apply:
 containerized database
 
  ## DBT
+ ![dbt lineage](https://github.com/degagawolde/data-warehouse-dbt-airflow-postgress/blob/main/screenshots/dbt_lineage_2.png)
 -  Locally install dbt
 -  Connect dbt to the db and run models
 -  Generate dbt docs with Airflow
@@ -38,6 +39,8 @@ containerized database
 -  Containerized dbt with the rest
 
 ## Redash
+![redash](https://github.com/degagawolde/data-warehouse-dbt-airflow-postgress/blob/main/screenshots/redahs_homepage.png)
+![redash visualization](https://github.com/degagawolde/data-warehouse-dbt-airflow-postgress/blob/main/screenshots/average_speed_vs_time.png) 
 - Install and connect Redash
 - Create sample visualization
 - Containerized Redash with the rest
